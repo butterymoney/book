@@ -192,20 +192,39 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="motivation">Motivation</h1>
-<h2 id="decentralised-governance">Decentralised Governance</h2>
+<h2 id="decentralised-autonomous-organisations">Decentralised Autonomous Organisations</h2>
 <ul>
-<li>Governance inherently involves a community coordinating, <strong><em>without a centralised actor with privileged rights,</em></strong> to make decisions in pursuit of some goal or outcome, and is formalised or defined under set of shared context(s), e.g. a geography, the law, a market, a cause, etc.</li>
-<li>We refer to <strong>decentralized network governance</strong> as the governance of a network (e.g., a blockchain network) through a network (the multiplicity of actors that exert power in continuously changing roles and relationships).</li>
-<li><a href="https://ijoc.org/index.php/ijoc/article/view/1136" target="_blank">Castells’s</a> writing on governance notes there are four forms of power related to networks:<ul>
-<li>networking power: <em>the ability to include and exclude members and thereby control the makeup of the network</em></li>
-<li>network power: <em>the power that results from the imposition of rules or standards required to coordinate interactions within the network</em></li>
-<li>networked power: <em>the power that actors have over one another within the network</em></li>
-<li>network-making power: <strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>*</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong>the power of an actor or organisation to constitute or reprogram a network according to its values and specific interests<strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>*</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></li>
+<li>DAOs are a novel form of organisation, uniquely enabled by blockchains</li>
+<li>I believe that DAOs, as a form of organisation, obey the following principles:<ol>
+<li>Organisations <strong>compete for resources</strong>, including labour, capital, land, raw materials</li>
+<li>Organisations <strong>reallocate resources from lower productivity activities to higher productivity activities</strong> to produce goods and services, from private to public</li>
+<li>Organisations <strong><a href="https://en.wikipedia.org/wiki/Growth_imperative#Firms" target="_blank">tend toward</a></strong> <a href="https://en.wikipedia.org/wiki/Growth_imperative" target="_blank">**growth</a> as a strategy,** as this improves their standing in the competition for resources</li>
+<li>Organisations are composed of (among other things):<ol>
+<li>an <strong>allocation mechanism</strong> (how the organisation allocates resources), e.g., capitalism, entrepreneurship</li>
+<li>a <strong>governance mechanism</strong> (how to update the organisation’s properties), e.g., democracy, board of directors, token voting</li>
+<li>a <strong>standardised store of value **</strong>(how to represent the value of the organisation’s resources), e.g., currency, equity, tokens</li>
+</ol>
+</li>
+<li>Stores of Value are <strong>fungible</strong> and can be considered to represent a <strong>claim on some future resources</strong> or <strong>economic rights</strong>, i.e. 1 unit of the Store of Value can be exchanged for 1 unit of value in <em>Resource A,</em> 1 unit of value in <em>Resource B,</em> or 1 unit of the Store of Value</li>
+</ol>
+</li>
+</ul>
+<h2 id="dao-governance">DAO Governance</h2>
+<ul>
+<li>DAO governance inherently involves a network of participants coordinating, <strong><em>without a centralised actor with privileged rights,</em></strong> to make decisions in pursuit of some goal or outcome, and is formalised or defined under set of shared context(s), e.g. a geography, the law, a market, a cause, etc.</li>
+<li>In DAO governance systems, many of today’s problems cluster around optimising the distribution of governance power of a decentralised system so the system can achieve its goals</li>
+</ul>
+<h2 id="dao-governance-models">DAO Governance Models</h2>
+<ul>
+<li><em>Note: We recognise that token-voting, is democratic in nature but far from a democracy, however we will use the term democracy to adhere to convention in the broader literature</em></li>
+<li>Models<ul>
+<li>Direct Democracy</li>
+<li>Representative Democracy</li>
+<li>Reputation Voting</li>
+<li>Republic-like</li>
 </ul>
 </li>
-<li>In decentralised governance systems, many of today’s problems cluster around optimising the distribution of governance power of a decentralised system to increase the system’s probability of success</li>
 </ul>
-<h2 id="decentralised-governance-models">Decentralised Governance Models</h2>
 <h3 id="direct-democracy-→-one-token-one-vote-on-every-proposal"><strong>Direct Democracy → One token, one vote on every proposal</strong></h3>
 <p><strong>Description</strong></p>
 <ul>
@@ -284,10 +303,18 @@
 </ul>
 <h1 id="opportunity">Opportunity</h1>
 <ul>
-<li>Each decentralised governance model introduces a trade-off between incentive alignment and stakeholder representation</li>
-<li>Governance mechanisms tend to be hard-coded or centrally-planned and implemented unilaterally, rendering them costly to design, deploy, and subsequently update, which means power often accrues to those with the ability to update governance, i.e. network-making powers</li>
+<li>The ideal decentralised governance model in any circumstance is unlikely to be one where voting power is derived entirely from purchasing tokens, being elected, attaining membership, providing labour, or building reputation</li>
+<li>Instead we expect decentralised governance to be adaptive to the needs of the organisation over time, comprising and rebalancing elements of each governance model over time</li>
+<li>DAOs, unfortunately, are constrained by their adherence to a single governance mechanism at any one time which are often hard-coded and implemented unilaterally, rendering them expensive to change</li>
+<li>Selecting a DAO governance model typically involves a trade off between incentive alignment, stakeholder representation, and efficacy</li>
+<li>We posit that DAO governance can be improved multiple governance mechanisms can co-exist, allowing the limitations of one mechanism to be offset by the benefits of another</li>
 <li>A market-based approach to the allocation of governance power to competing governance mechanisms improves the aggregate governance mechanism’s ability to adapt to the dynamic power relationships between stakeholders</li>
-<li>By moving away from unipolar governance mechanisms towards market-based multipolar governance mechanisms, we can build organisations that continuously adapt to a changing environment</li>
+<li>By moving away from unipolar governance mechanisms towards market-based multipolar governance mechanisms, we can build organisations that can<ul>
+<li>continuously adapt to a changing environment</li>
+<li>allow governance participants to express specific preferences and opinions</li>
+<li>continuously produce counter-balancing incentives that limit the risk of governance capture</li>
+</ul>
+</li>
 </ul>
 
                                 
@@ -332,7 +359,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Motivation","level":"1.2.1","depth":2,"next":{"title":"V1 financing contract","level":"1.2.2","depth":2,"path":"molten/v1.md","ref":"molten/v1.md","articles":[]},"previous":{"title":"Molten","level":"1.2","depth":1,"path":"molten/README.md","ref":"molten/README.md","articles":[{"title":"Motivation","level":"1.2.1","depth":2,"path":"molten/motivation.md","ref":"molten/motivation.md","articles":[]},{"title":"V1 financing contract","level":"1.2.2","depth":2,"path":"molten/v1.md","ref":"molten/v1.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"molten/motivation.md","mtime":"2022-11-22T11:55:53.227Z","type":"markdown"},"gitbook":{"version":"4.0.4","time":"2022-11-22T11:57:16.740Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Motivation","level":"1.2.1","depth":2,"next":{"title":"V1 financing contract","level":"1.2.2","depth":2,"path":"molten/v1.md","ref":"molten/v1.md","articles":[]},"previous":{"title":"Molten","level":"1.2","depth":1,"path":"molten/README.md","ref":"molten/README.md","articles":[{"title":"Motivation","level":"1.2.1","depth":2,"path":"molten/motivation.md","ref":"molten/motivation.md","articles":[]},{"title":"V1 financing contract","level":"1.2.2","depth":2,"path":"molten/v1.md","ref":"molten/v1.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"molten/motivation.md","mtime":"2022-11-24T23:36:56.197Z","type":"markdown"},"gitbook":{"version":"4.0.4","time":"2022-11-24T23:38:17.543Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
