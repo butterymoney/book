@@ -2,37 +2,48 @@
 
 ## Decentralised Autonomous Organisations
 
-- DAOs are a novel form of organisation, uniquely enabled by blockchains
-- Through blockchains, DAOs proffer the benefits of coordinating labour and capital at scale without the downsides of centralisation, such as rent-seeking, corruption, collusion, single-point-of-failure, bureaucracy, and capture that undermine our existing institutions
-- The components of an organisation include, but are not limited to:
-    1. an **objective** or **purpose**
-    2. a membership policy that produces a set of **members**
-    3. an **allocation mechanism** (how the organisation allocates resources), e.g., capitalism, entrepreneurship
-    4. a **governance mechanism** (how to update the organisation’s properties), e.g., democracy, board of directors, token-voting
-    5. a **standardised store of value ****(how to represent the value of the organisation’s resources), e.g., currency, equity, tokens
-- DAOs, like other organisations, **compete for resources**, including labour and capital, and even land and raw materials in the case of Bitcoin, Helium, and CityDAO
-- DAOs **reallocate resources from lower productivity activities to higher productivity activities** to produce goods and services, from private to public
-- Generally, many DAO proponents expect DAOs to outperform relative to traditional institutions in the provision of public, common, or club goods because these are the goods most prone to capture by a centralised entity, e.g. the state
-- It follows that, if Public Goods DAOs are a successful innovation, resources will flow from the State to DAOs and we will see an increase in the provision of public goods that do not suffer from centralisation issues
+DAOs are a novel form of organisation, uniquely enabled by blockchains.
+
+Through blockchains, DAOs proffer the benefits of coordinating labour and capital at scale without the downsides of centralisation, such as rent-seeking, corruption, collusion, single-point-of-failure, bureaucracy, and capture that undermine our existing institutions.
+
+The components of an organisation include, but are not limited to:
+
+1. an **objective** or **purpose**
+2. a membership policy that produces a set of **members**
+3. an **allocation mechanism** (how the organisation allocates resources), e.g., capitalism, entrepreneurship
+4. a **governance mechanism** (how to update the organisation’s properties), e.g., democracy, board of directors, token-voting
+5. a **standardised store of value ****(how to represent the value of the organisation’s resources), e.g., currency, equity, tokens
+
+DAOs, like other organisations, **compete for resources**, including labour and capital, and even land and raw materials in the case of Bitcoin, Helium, and CityDAO.
+
+DAOs **reallocate resources from lower productivity activities to higher productivity activities** to produce goods and services, from private to public.
+
+Generally, many DAO proponents expect DAOs to outperform relative to traditional institutions in the provision of public, common, or club goods because these are the goods most prone to capture by a centralised entity, e.g. the state.
+
+It follows that, if Public Goods DAOs are a successful innovation, resources will flow from the State to DAOs and we will see an increase in the provision of public goods that do not suffer from centralisation issues.
 
 ## DAO Governance
 
 *DAO governance involves a network of participants coordinating, **without a centralised actor with privileged rights,** to make decisions in pursuit of some goal or outcome, and is formalised or defined under set of shared context(s), e.g. a geography, the law, a market, a cause, etc.*
 
-- DAOs, like other organisations, implement their own endogenous rulesets that govern all components and the interactions between them, such as the law in the case of nations, compensation, taxation, resource allocation, social choice, etc.
-- DAOs, like corporations and nations, are also governed by exogenous rulesets dictated by their environment such as the law in the case of corporations, market forces, international relations, physics, blockchain protocols, etc.
-- Governance mechanisms are, therefore, the component of DAOs that mediates all components and the interactions between them. In particular, the translation of member preferences into decisions required for the DAO’s instantiation, the enforcement of its boundaries, and its continued operation in accordance with environmental rules, and in respect of competing rulesets, i.e. other DAO governance mechanisms
-- A description of a DAO’s governance mechanism, including the set of functions and parameters under the mechanism’s control, all components, and the interactions between them would sufficiently describe the DAO such that a DAO’s governance mechanism could be considered the DAO itself
+DAOs, like other organisations, implement their own endogenous rulesets that govern all components and the interactions between them, such as the law in the case of nations, compensation, taxation, resource allocation, social choice, etc.
+
+DAOs, like corporations and nations, are also governed by exogenous rulesets dictated by their environment such as the law in the case of corporations, market forces, international relations, physics, blockchain protocols, etc. 
+
+Governance mechanisms are, therefore, the component of DAOs that mediates all components and the interactions between them. In particular, the translation of member preferences into decisions required for the DAO’s instantiation, the enforcement of its boundaries, and its continued operation in accordance with environmental rules, and in respect of competing rulesets, i.e. other DAO governance mechanisms.
+
+A description of a DAO’s governance mechanism, including the set of functions and parameters under the mechanism’s control, all components, and the interactions between them would sufficiently describe the DAO such that a DAO’s governance mechanism could be considered the DAO itself.
 
 ## DAO Governance Models
 
 *Note: We recognise that token-voting, is democratic in nature but far from a democracy, however we will use the term democracy to adhere to convention in the broader literature*
 
-- Models
-    - Direct Democracy
-    - Representative Democracy
-    - Reputation Voting
-    - Republic-like
+Models include:
+
+- Direct Democracy
+- Representative Democracy
+- Reputation Voting
+- Republic-like
 
 ### **Direct Democracy**
 
@@ -40,20 +51,20 @@
 
 **Description**
 
-- In a direct democracy, token-holders make decisions by voting on proposals, where each token is equivalent to a vote
-- Governance must configure the following parameters:
-    - Who has the right to create a proposal
-    - How to convert token votes to a decision, e.g. majority-rule, supermajority, quorum-contingent
+In a direct democracy, token-holders make decisions by voting on proposals, where each token is equivalent to a vote. Governance must configure the following parameters:
+
+- Who has the right to create a proposal
+- How to convert token votes to a decision, e.g. majority-rule, supermajority, quorum-contingent
 
 **Benefits**
 
-- bundling financial upside and governance rights aligns risk and responsibility which incentivises those with the most to gain from price appreciation to make decisions that directly or indirectly maximise price appreciation
-- this is a copy of the equity system which makes it easy-to-understand → fork of equity
+- Bundling financial upside and governance rights aligns risk and responsibility which incentivises those with the most to gain from price appreciation to make decisions that directly or indirectly maximise price appreciation
+- This is a copy of the equity system which makes it easy for holders to understand
 
 **Limitations**
 
-- keeps out those who may be affected by governance but don’t have the capital to acquire governance rights
-- tends towards plutocracy which if left unchecked leads to failure → “number go up” only regardless of negative externalities
+- Keeps out those who may be affected by governance but don’t have the capital to acquire governance rights
+- Tends towards plutocracy which if left unchecked leads to failure through a focus on price appreciation, regardless of negative externalities
 
 ### **Representative democracy**
 
@@ -61,23 +72,23 @@
 
 **Description**
 
-- In a representative democracy, token-holders make decisions by voting on proposals, where each token is equivalent to a vote, but can also delegate their voting power to a representative
-- Governance must configure the following parameters:
-    - Who has the right to create a proposal
-    - How to convert token votes to a decision, e.g. majority-rule, supermajority, quorum-contingent
-    - Which rights can be delegated and to who
+In a representative democracy, token-holders make decisions by voting on proposals, where each token is equivalent to a vote, but can also delegate their voting power to a representative. Governance must configure the following parameters:
+
+- Who has the right to create a proposal
+- How to convert token votes to a decision, e.g. majority-rule, supermajority, quorum-contingent
+- Which rights can be delegated and to who
 
 **Benefits**
 
-- aligns incentives by unbundling financial risk and governance power and allocating them to domain experts
-- allows governance rights to accrue to representatives voters believe are best placed to represent their preferences
-- reduces voter apathy
+- Aligns incentives by unbundling financial risk and governance power and allocating them to domain experts
+- Allows governance rights to accrue to representatives voters believe are best placed to represent their preferences
+- Reduces voter apathy
 
 **Limitations**
 
-- as delegation scales, the nuance of voter preferences is diluted to the preferences of a smaller subset of voters, i.e. the delegates, which is less representative of the population
-- forces the voter to find a single delegate who represents their entire range of preferences across all possible decisions (though tokens could be split across wallets or delegation functionality enhanced)
-- allowing voters to delegate enables a more persistent form of voter apathy, as seen in our traditional political system
+- As delegation scales, the nuance of voter preferences is diluted to the preferences of a smaller subset of voters, i.e. the delegates, which is less representative of the population
+- Forces the voter to find a single delegate who represents their entire range of preferences across all possible decisions (though tokens could be split across wallets or delegation functionality enhanced)
+- Allowing voters to delegate enables a more persistent form of voter apathy, as seen in our traditional political system
 
 ### **Reputation voting**
 
@@ -85,7 +96,7 @@
 
 **Description**
 
-- Non-transferable voting based on your membership, reputation and, or contribution
+Non-transferable voting based on your membership, reputation and, or contribution.
 
 **Benefits**
 
@@ -105,7 +116,7 @@
 
 **Description**
 
-- Vote in teams to run governance and operations
+Vote in teams to run governance and operations.
 
 **Benefits**
 
@@ -117,16 +128,3 @@
 - principal-agent incentive alignment problem
 - increased bureaucracy / opportunism risk
 - system is only as performant as its observability
-
-# Opportunity
-
-- The ideal decentralised governance model in any circumstance is unlikely to be one where voting power is derived entirely from purchasing tokens, being elected, attaining membership, providing labour, or building reputation
-- Instead we expect decentralised governance to be adaptive to the needs of the organisation over time, comprising and rebalancing elements of each governance model over time
-- DAOs, unfortunately, are constrained by their adherence to a single governance mechanism at any one time which are often hard-coded and implemented unilaterally, rendering them expensive to change
-- Selecting a DAO governance model typically involves a trade off between incentive alignment, stakeholder representation, and efficacy
-- We posit that DAO governance can be improved multiple governance mechanisms can co-exist, allowing the limitations of one mechanism to be offset by the benefits of another
-- A market-based approach to the allocation of governance power to competing governance mechanisms improves the aggregate governance mechanism’s ability to adapt to the dynamic power relationships between stakeholders
-- By moving away from unipolar governance mechanisms towards market-based multipolar governance mechanisms, we can build organisations that can
-    - continuously adapt to a changing environment
-    - allow governance participants to express preferences and opinions that cannot be captured by layer 1 governance
-    - continuously produce counter-balancing incentives that limit the risk of governance capture by a single voting bloc
