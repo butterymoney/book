@@ -1,2 +1,0 @@
-- **Direct & Short-Term:** DAO’s enjoy more liquidity, specifically at size, for its governance tokens
-- **Emergent & Long-Term:** DAO governance is more inclusive and pluralistic, which leads to a reduction in the Gini coefficient

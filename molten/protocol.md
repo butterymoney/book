@@ -1,5 +1,4 @@
-
-# Layer 2 Governance
+# Layer 2 Governance Protocol
 
 Molten is a layer 2 governance protocol for DAOs. The protocol increases the throughput and efficacy of DAO governance by nesting multiple forms of governance within a one-token, one-vote governance mechanism by:
 

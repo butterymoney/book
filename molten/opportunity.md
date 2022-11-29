@@ -1,3 +1,5 @@
+# Opportunity
+
 The ideal decentralised governance model in any circumstance is unlikely to be one where voting power is derived entirely from purchasing tokens, being elected, attaining membership, providing labour, or building reputation.
 
 Instead we expect decentralised governance to be adaptive to the needs of the organisation over time, comprising and rebalancing elements of each governance model in response to new information.
