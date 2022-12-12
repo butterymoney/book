@@ -4,8 +4,6 @@
 
 DAOs are a novel form of organisation, uniquely enabled by blockchains.
 
-Through blockchains, DAOs proffer the benefits of coordinating labour and capital at scale without the downsides of centralisation, such as rent-seeking, corruption, collusion, single-point-of-failure, bureaucracy, and capture that undermine our existing institutions.
-
 The components of an organisation include, but are not limited to:
 
 1. an **objective** or **purpose**
@@ -14,11 +12,13 @@ The components of an organisation include, but are not limited to:
 4. a **governance mechanism** (how to update the organisation’s properties), e.g., democracy, board of directors, token-voting
 5. a **standardised store of value ****(how to represent the value of the organisation’s resources), e.g., currency, equity, tokens
 
+Through blockchains, DAOs proffer the benefits of coordinated human effort at scale without the downsides of centralisation, such as rent-seeking, corruption, collusion, single-point-of-failure, bureaucracy, and capture that undermine our existing institutions.
+
 Generally, many DAO proponents expect DAOs to outperform relative to traditional institutions in the provision of public, common, or club goods because these are the goods most prone to capture by a centralised entity, e.g. the state.
 
-It follows that, if Public Goods DAOs are a successful innovation, resources will flow from the State to DAOs and we will see an increase in the provision of public goods that do not suffer from the problems caused by centralisation.
+It follows that, if Public Goods DAOs are a successful innovation, resources will flow from the state to DAOs leading to an increase in the provision of public goods that do not suffer from the problems caused by centralisation.
 
-In practice, however, it appears that DAOs may not eradicate these issues but simply move them through time and space[[1](https://kelsienabben.substack.com/p/towards-a-model-of-resilience-in#_ftn23)]. Hence, our simple DAO implementations are vulnerable to many of the issues we expect them to offer an escape from.
+In practice, however, it appears that DAOs may not eradicate these issues but simply move them through time and space[[1](https://kelsienabben.substack.com/p/towards-a-model-of-resilience-in#_ftn23)]. Hence, our simple DAO implementations remain vulnerable to many of the issues we expect them to offer an escape from.
 
 ## DAO Governance
 
@@ -26,11 +26,11 @@ In practice, however, it appears that DAOs may not eradicate these issues but si
 
 DAOs, like other organisations, implement their own endogenous rulesets that govern all components and the interactions between them, such as the law in the case of nations, compensation, taxation, resource allocation, social choice, etc.
 
-DAOs, like corporations and nations, are also governed by exogenous policies dictated by their environment such as the law in the case of corporations, market forces, international relations, physics, blockchain protocols, etc. 
+DAOs are similarly governed by exogenous policies dictated by their environment such as the law in the case of corporations, market forces, international relations, physics, blockchain protocols, etc.
 
 Governance mechanisms are, therefore, the component of DAOs that mediates all components and the interactions between them. In particular, the translation of stakeholder preferences into decisions required for the DAO’s instantiation, the enforcement of its boundaries, and its continued operation in accordance with environmental rules, and in respect of competing rulesets, i.e. other DAO governance mechanisms.
 
-A description of a DAO’s governance mechanism, including the set of functions and parameters under the mechanism’s control, all components, and the interactions between them would sufficiently describe the DAO such that a DAO’s governance mechanism could be considered the DAO itself. Therefore, addressing problems in DAO Governance is the highest value problem to solve in DAOs today.
+A description of a DAO’s governance mechanism, including the set of functions and parameters under the mechanism’s control, all components, and the interactions between them would sufficiently describe the DAO such that a DAO’s governance mechanism could be considered the DAO itself. Therefore, addressing problems in DAO Governance is potentially the highest value problem to solve in DAOs today to ensure their adoption.
 
 ## DAO Governance Models
 
@@ -70,7 +70,7 @@ Governance must configure the following parameters:
 
 - PleasrDAO, Aavegotchi, VitaDAO
 
-### **Representative democracy**
+### **Representative Democracy**
 
 ***One token, one vote on every proposal with vote delegation*** 
 

@@ -1,6 +1,6 @@
 # 🌋 Molten
 
-One token, one vote mechanisms are the primary governance mechanism used by DAOs. However, one token, one vote and other token voting governance systems are widely considered vulnerable to corruption, where corruption is a decision or action that diverts rewards to a single stakeholder or stakeholder group and results in negative payoffs for all other stakeholders, and attack, where an individual or collective uses the governance mechanism to conduct malicious acts.
+One token, one vote mechanisms are the primary governance mechanism used by DAOs. However, one token, one vote and other token voting governance systems operate as effective plutocracies and are widely considered vulnerable to corruption, where corruption is a decision or action that diverts rewards to a single stakeholder or stakeholder group and results in negative payoffs for all other stakeholders, and attack, where an individual or collective uses the governance mechanism to conduct malicious acts.
 
 Large or mature DAOs, and many newer DAOs, introduced vote delegation in an attempt to scale governance and alleviate the risks of plutocracy. Though the impact of vote delegation is difficult to measure, competition, reputation, and “ex post settling up” costs appear to provide equal limits on whale power in either case.
 
@@ -13,6 +13,8 @@ Finally, we propose a solution to limit corruption and improve stakeholder coope
 ## Problem Space
 
 - DAO Governance Attacks
+- DAO Governance Corruption
+- DAO Governance Capture
 
 ## Properties
 
@@ -33,37 +35,49 @@ Finally, we propose a solution to limit corruption and improve stakeholder coope
 
 ## Problems
 
-- **Corruption** problems
-    - **Opportunism**. Where a single stakeholder is rewarded for acting in their own self interest while punishing all other stakeholders and/or producing outcomes that do not align with the DAO’s objectives.
-        - **Example:** Proposing or voting for salary increases or against salary cuts during a budget-cutting exercise.
-            - TODO: Add real-world example
-        - **Symptoms:**
-            - Deviation between outcomes and objectives
-            - Increase in Actions or Decisions that do not align with objectives
-            - Illegitimate diversion of funds
-    - **Capture**. Where a minority group of stakeholders possess the power to consistently determine the DAO’s actions to serve their own preferences while punishing all other stakeholders and/or producing outcomes that do not align with the DAO’s objectives.
-        - **Example:** Plutocracy, Bureaucracy
-            - TODO: Add real-world example
-        - **Symptoms:**
-            - Deviation between outcomes and objectives
-            - Increase in Actions or Decisions that do not align with objectives
-            - Illegitimate diversion of funds
-    - **Collusion**. Where two or more stakeholders or stakeholder groups that operate within or outside the boundaries of the DAO cooperate for their mutual benefit, to the detriment of all other stakeholders and the DAO’s ability to achieve its objectives.
-        - **Example:** [Vote Buying](https://hackingdistributed.com/2018/07/02/on-chain-vote-buying/)
-            - TODO: Add real-world example
-        - **Symptoms:**
-            - Deviation between outcomes and objectives
-            - Increase in Actions or Decisions that do not align with objectives
-            - Illegitimate diversion of funds
-- **Attack** problems
-    - ****Capital Structure Exploitation****. Where an individual or group is able to exploit vulnerabilities in the DAO’s governance mechanism to extract capital.
-        - **Example:** Treasury Drain Attacks, Price Manipulation Attacks, Arbitrageurs, etc.
-            - TODO: Add real-world example
-        - **Symptom:**
-            - Illegitimate diversion of funds
-- **Operation** problems:
-    - **Inertia or gridlock**. Governance is not able to produce decisions that meet the demands of DAO participants or does not reliably produce decisions that align with the objectives of the DAO.
-        - **Example:** Infighting, voter apathy, failure to achieve quorum
-            - TODO: Add real-world example
-        - **Symptom:**
-            - Reduction in Actions and Decisions that align with objectives
+### **Corruption** Problems
+
+**Opportunism**. Where a single stakeholder is rewarded for acting in their own self interest while punishing all other stakeholders and/or producing outcomes that do not align with the DAO’s objectives.
+
+- **Example:** Proposing or voting for salary increases or against salary cuts during a budget-cutting exercise.
+    - TODO: Add real-world example
+- **Symptoms:**
+    - Deviation between outcomes and objectives
+    - Increase in Actions or Decisions that do not align with objectives
+    - Illegitimate diversion of funds
+
+**Capture**. Where a minority group of stakeholders possess the power to consistently determine the DAO’s actions to serve their own preferences while punishing all other stakeholders and/or producing outcomes that do not align with the DAO’s objectives.
+
+- **Example:** Plutocracy, Bureaucracy
+    - TODO: Add real-world example
+- **Symptoms:**
+    - Deviation between outcomes and objectives
+    - Increase in Actions or Decisions that do not align with objectives
+    - Illegitimate diversion of funds
+
+**Collusion**. Where two or more stakeholders or stakeholder groups that operate within or outside the boundaries of the DAO cooperate for their mutual benefit, to the detriment of all other stakeholders and the DAO’s ability to achieve its objectives.
+
+- **Example:** [Vote Buying](https://hackingdistributed.com/2018/07/02/on-chain-vote-buying/)
+    - TODO: Add real-world example
+- **Symptoms:**
+    - Deviation between outcomes and objectives
+    - Increase in Actions or Decisions that do not align with objectives
+    - Illegitimate diversion of funds
+
+### **Attack** Problems
+
+**Capital Structure Exploitation**. Where an individual or group is able to exploit vulnerabilities in the DAO’s governance mechanism to extract capital.
+
+- **Example:** Treasury Drain Attacks, Price Manipulation Attacks, Arbitrageurs, etc.
+    - TODO: Add real-world example
+- **Symptom:**
+    - Illegitimate diversion of funds
+
+### **Operation** Problems
+
+**Inertia or gridlock**. Governance is not able to produce decisions that meet the demands of DAO participants or does not reliably produce decisions that align with the objectives of the DAO.
+
+- **Example:** Infighting, voter apathy, failure to achieve quorum
+    - TODO: Add real-world example
+- **Symptom:**
+    - Reduction in Actions and Decisions that align with objectives
