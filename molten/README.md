@@ -1,6 +1,6 @@
 # 🌋 Molten
 
-One token, one vote mechanisms are the primary governance mechanism used by DAOs. However, one token, one vote and other token voting governance systems are widely considered vulnerable to corruption, where corruption is a decision or action that diverts rewards to a single stakeholder or stakeholder group and results in negative payoffs for all other stakeholders.
+One token, one vote mechanisms are the primary governance mechanism used by DAOs. However, one token, one vote and other token voting governance systems are widely considered vulnerable to corruption, where corruption is a decision or action that diverts rewards to a single stakeholder or stakeholder group and results in negative payoffs for all other stakeholders, and attack, where an individual or collective uses the governance mechanism to conduct malicious acts.
 
 Large or mature DAOs, and many newer DAOs, introduced vote delegation in an attempt to scale governance and alleviate the risks of plutocracy. Though the impact of vote delegation is difficult to measure, competition, reputation, and “ex post settling up” costs appear to provide equal limits on whale power in either case.
 
