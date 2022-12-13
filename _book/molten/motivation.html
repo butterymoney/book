@@ -56,7 +56,7 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="protocol.html" />
+    <link rel="next" href="innovation.html" />
     
     
     <link rel="prev" href="./" />
@@ -128,7 +128,33 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2" data-path="protocol.html">
+        <li class="chapter " data-level="1.2.2" data-path="innovation.html">
+            
+                <a href="innovation.html">
+            
+                    
+                    Governance Innovation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="adaptive.html">
+            
+                <a href="adaptive.html">
+            
+                    
+                    Adaptive Governance
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="protocol.html">
             
                 <a href="protocol.html">
             
@@ -141,7 +167,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.3" data-path="v1.html">
+        <li class="chapter " data-level="1.2.5" data-path="v1.html">
             
                 <a href="v1.html">
             
@@ -206,92 +232,86 @@
                                 
                                 <h1 id="motivation">Motivation</h1>
 <h2 id="decentralised-autonomous-organisations">Decentralised Autonomous Organisations</h2>
-<ul>
-<li>DAOs are a novel form of organisation, uniquely enabled by blockchains</li>
-<li>Through blockchains, DAOs proffer the benefits of coordinating labour and capital at scale without the downsides of centralisation, such as rent-seeking, corruption, collusion, single-point-of-failure, bureaucracy, and capture that undermine our existing institutions</li>
-<li>The components of an organisation include, but are not limited to:<ol>
+<p>DAOs are a novel form of organisation, uniquely enabled by blockchains.</p>
+<p>The components of an organisation include, but are not limited to:</p>
+<ol>
 <li>an <strong>objective</strong> or <strong>purpose</strong></li>
 <li>a membership policy that produces a set of <strong>members</strong></li>
 <li>an <strong>allocation mechanism</strong> (how the organisation allocates resources), e.g., capitalism, entrepreneurship</li>
 <li>a <strong>governance mechanism</strong> (how to update the organisation’s properties), e.g., democracy, board of directors, token-voting</li>
 <li>a <strong>standardised store of value **</strong>(how to represent the value of the organisation’s resources), e.g., currency, equity, tokens</li>
 </ol>
-</li>
-<li>DAOs, like other organisations, <strong>compete for resources</strong>, including labour and capital, and even land and raw materials in the case of Bitcoin, Helium, and CityDAO</li>
-<li>DAOs <strong>reallocate resources from lower productivity activities to higher productivity activities</strong> to produce goods and services, from private to public</li>
-<li>Generally, many DAO proponents expect DAOs to outperform relative to traditional institutions in the provision of public, common, or club goods because these are the goods most prone to capture by a centralised entity, e.g. the state</li>
-<li>It follows that, if Public Goods DAOs are a successful innovation, resources will flow from the State to DAOs and we will see an increase in the provision of public goods that do not suffer from centralisation issues</li>
-</ul>
+<p>Through blockchains, DAOs proffer the benefits of coordinated human effort at scale without the downsides of centralisation, such as rent-seeking, corruption, collusion, single-point-of-failure, bureaucracy, and capture that undermine our existing institutions.</p>
+<p>Generally, many DAO proponents expect DAOs to outperform relative to traditional institutions in the provision of public, common, or club goods because these are the goods most prone to capture by a centralised entity, e.g. the state.</p>
+<p>It follows that, if Public Goods DAOs are a successful innovation, resources will flow from the state to DAOs leading to an increase in the provision of public goods that do not suffer from the problems caused by centralisation.</p>
+<p>In practice, however, it appears that DAOs may not eradicate these issues but simply move them through time and space[<a href="https://kelsienabben.substack.com/p/towards-a-model-of-resilience-in#_ftn23" target="_blank">1</a>]. Hence, our simple DAO implementations remain vulnerable to many of the issues we expect them to offer an escape from.</p>
 <h2 id="dao-governance">DAO Governance</h2>
 <p><em>DAO governance involves a network of participants coordinating, <strong>without a centralised actor with privileged rights,</strong> to make decisions in pursuit of some goal or outcome, and is formalised or defined under set of shared context(s), e.g. a geography, the law, a market, a cause, etc.</em></p>
-<ul>
-<li>DAOs, like other organisations, implement their own endogenous rulesets that govern all components and the interactions between them, such as the law in the case of nations, compensation, taxation, resource allocation, social choice, etc.</li>
-<li>DAOs, like corporations and nations, are also governed by exogenous rulesets dictated by their environment such as the law in the case of corporations, market forces, international relations, physics, blockchain protocols, etc.</li>
-<li>Governance mechanisms are, therefore, the component of DAOs that mediates all components and the interactions between them. In particular, the translation of member preferences into decisions required for the DAO’s instantiation, the enforcement of its boundaries, and its continued operation in accordance with environmental rules, and in respect of competing rulesets, i.e. other DAO governance mechanisms</li>
-<li>A description of a DAO’s governance mechanism, including the set of functions and parameters under the mechanism’s control, all components, and the interactions between them would sufficiently describe the DAO such that a DAO’s governance mechanism could be considered the DAO itself</li>
-</ul>
+<p>DAOs, like other organisations, implement their own endogenous rulesets that govern all components and the interactions between them, such as the law in the case of nations, compensation, taxation, resource allocation, social choice, etc.</p>
+<p>DAOs are similarly governed by exogenous policies dictated by their environment such as the law in the case of corporations, market forces, international relations, physics, blockchain protocols, etc.</p>
+<p>Governance mechanisms are, therefore, the component of DAOs that mediates all components and the interactions between them. In particular, the translation of stakeholder preferences into decisions required for the DAO’s instantiation, the enforcement of its boundaries, and its continued operation in accordance with environmental rules, and in respect of competing rulesets, i.e. other DAO governance mechanisms.</p>
+<p>A description of a DAO’s governance mechanism, including the set of functions and parameters under the mechanism’s control, all components, and the interactions between them would sufficiently describe the DAO such that a DAO’s governance mechanism could be considered the DAO itself. Therefore, addressing problems in DAO Governance is potentially the highest value problem to solve in DAOs today to ensure their adoption.</p>
 <h2 id="dao-governance-models">DAO Governance Models</h2>
-<p><em>Note: We recognise that token-voting, is democratic in nature but far from a democracy, however we will use the term democracy to adhere to convention in the broader literature</em></p>
+<p><em>Note: We recognise that token-voting, is democratic in nature but far from a democracy in the literal sense, however we will use the term democracy to adhere to convention in the broader literature</em></p>
+<p>Models include:</p>
 <ul>
-<li>Models<ul>
 <li>Direct Democracy</li>
 <li>Representative Democracy</li>
 <li>Reputation Voting</li>
 <li>Republic-like</li>
 </ul>
-</li>
-</ul>
 <h3 id="direct-democracy"><strong>Direct Democracy</strong></h3>
 <p><strong><em>One token, one vote on every proposal</em></strong> </p>
 <p><strong>Description</strong></p>
+<p>In a direct democracy, token-holders make decisions by voting on proposals, where each token is equivalent to a vote. Currently, this is the governance mechanism used by the majority of DAOs, especially smaller, younger DAOs.</p>
+<p>Governance must configure the following parameters:</p>
 <ul>
-<li>In a direct democracy, token-holders make decisions by voting on proposals, where each token is equivalent to a vote</li>
-<li>Governance must configure the following parameters:<ul>
 <li>Who has the right to create a proposal</li>
 <li>How to convert token votes to a decision, e.g. majority-rule, supermajority, quorum-contingent</li>
 </ul>
-</li>
-</ul>
 <p><strong>Benefits</strong></p>
 <ul>
-<li>bundling financial upside and governance rights aligns risk and responsibility which incentivises those with the most to gain from price appreciation to make decisions that directly or indirectly maximise price appreciation</li>
-<li>this is a copy of the equity system which makes it easy-to-understand → fork of equity</li>
+<li>Bundling financial upside and governance rights aligns risk and responsibility which incentivises those with the most to gain from price appreciation to make decisions that directly or indirectly maximise price appreciation</li>
+<li>This is a copy of the equity system which makes it easy for holders to understand</li>
 </ul>
 <p><strong>Limitations</strong></p>
 <ul>
-<li>keeps out those who may be affected by governance but don’t have the capital to acquire governance rights</li>
-<li>tends towards plutocracy which if left unchecked leads to failure → “number go up” only regardless of negative externalities</li>
+<li>Keeps out those who may be affected by governance but don’t have the capital to acquire governance rights</li>
+<li>Tends towards plutocracy which if left unchecked leads to failure through a focus on price appreciation, regardless of negative externalities</li>
 </ul>
-<h3 id="representative-democracy"><strong>Representative democracy</strong></h3>
+<p><strong>Examples</strong></p>
+<ul>
+<li>PleasrDAO, Aavegotchi, VitaDAO</li>
+</ul>
+<h3 id="representative-democracy"><strong>Representative Democracy</strong></h3>
 <p><strong><em>One token, one vote on every proposal with vote delegation</em></strong> </p>
 <p><strong>Description</strong></p>
+<p>In a representative democracy, token-holders make decisions by voting on proposals, where each token is equivalent to a vote, but can also delegate their voting power to a representative. Delegated voting is increasingly becoming the most popular governance mechanism, especially for mature, large DAOs. Governance must configure the following parameters:</p>
 <ul>
-<li>In a representative democracy, token-holders make decisions by voting on proposals, where each token is equivalent to a vote, but can also delegate their voting power to a representative</li>
-<li>Governance must configure the following parameters:<ul>
 <li>Who has the right to create a proposal</li>
 <li>How to convert token votes to a decision, e.g. majority-rule, supermajority, quorum-contingent</li>
 <li>Which rights can be delegated and to who</li>
 </ul>
-</li>
-</ul>
 <p><strong>Benefits</strong></p>
 <ul>
-<li>aligns incentives by unbundling financial risk and governance power and allocating them to domain experts</li>
-<li>allows governance rights to accrue to representatives voters believe are best placed to represent their preferences</li>
-<li>reduces voter apathy</li>
+<li>Aligns incentives by unbundling financial risk and governance power and allocating them to domain experts</li>
+<li>Allows governance rights to accrue to representatives voters believe are best placed to represent their preferences</li>
+<li>Reduces voter apathy</li>
 </ul>
 <p><strong>Limitations</strong></p>
 <ul>
-<li>as delegation scales, the nuance of voter preferences is diluted to the preferences of a smaller subset of voters, i.e. the delegates, which is less representative of the population</li>
-<li>forces the voter to find a single delegate who represents their entire range of preferences across all possible decisions (though tokens could be split across wallets or delegation functionality enhanced)</li>
-<li>allowing voters to delegate enables a more persistent form of voter apathy, as seen in our traditional political system</li>
+<li>As delegation scales, the nuance of voter preferences is diluted to the preferences of a smaller subset of voters, i.e. the delegates, which is less representative of the population</li>
+<li>Forces the voter to find a single delegate who represents their entire range of preferences across all possible decisions (though tokens could be split across wallets or delegation functionality enhanced)</li>
+<li>Allowing voters to delegate enables a more persistent form of voter apathy, as seen in our traditional political system</li>
+</ul>
+<p><strong>Examples</strong></p>
+<ul>
+<li>Uniswap, Gitcoin, Compound, ENS, MakerDAO, AAVE, Radicle, Nouns DAO</li>
 </ul>
 <h3 id="reputation-voting"><strong>Reputation voting</strong></h3>
 <p><strong><em>One person, one vote OR One contribution/reputation unit, one vote on every proposal</em></strong> </p>
 <p><strong>Description</strong></p>
-<ul>
-<li>Non-transferable voting based on your membership, reputation and, or contribution</li>
-</ul>
+<p>Non-transferable voting based on your membership, reputation and, or contribution.</p>
 <p><strong>Benefits</strong></p>
 <ul>
 <li>more equitable</li>
@@ -304,12 +324,14 @@
 <li>assumes equal exposure to externalities</li>
 <li>inability to express preference intensity</li>
 </ul>
+<p><strong>Examples</strong></p>
+<ul>
+<li>Optimism</li>
+</ul>
 <h3 id="republic-like-daos"><strong>Republic-like DAOs</strong></h3>
 <p><strong><em>One token, one vote on team appointment proposals</em></strong> </p>
 <p><strong>Description</strong></p>
-<ul>
-<li>Vote in teams to run governance and operations</li>
-</ul>
+<p>Vote in teams to run governance and operations.</p>
 <p><strong>Benefits</strong></p>
 <ul>
 <li>the governance surface area is bounded and therefore simpler to understand and reason about</li>
@@ -321,20 +343,9 @@
 <li>increased bureaucracy / opportunism risk</li>
 <li>system is only as performant as its observability</li>
 </ul>
-<h1 id="opportunity">Opportunity</h1>
+<p><strong>Examples</strong></p>
 <ul>
-<li>The ideal decentralised governance model in any circumstance is unlikely to be one where voting power is derived entirely from purchasing tokens, being elected, attaining membership, providing labour, or building reputation</li>
-<li>Instead we expect decentralised governance to be adaptive to the needs of the organisation over time, comprising and rebalancing elements of each governance model over time</li>
-<li>DAOs, unfortunately, are constrained by their adherence to a single governance mechanism at any one time which are often hard-coded and implemented unilaterally, rendering them expensive to change</li>
-<li>Selecting a DAO governance model typically involves a trade off between incentive alignment, stakeholder representation, and efficacy</li>
-<li>We posit that DAO governance can be improved multiple governance mechanisms can co-exist, allowing the limitations of one mechanism to be offset by the benefits of another</li>
-<li>A market-based approach to the allocation of governance power to competing governance mechanisms improves the aggregate governance mechanism’s ability to adapt to the dynamic power relationships between stakeholders</li>
-<li>By moving away from unipolar governance mechanisms towards market-based multipolar governance mechanisms, we can build organisations that can<ul>
-<li>continuously adapt to a changing environment</li>
-<li>allow governance participants to express preferences and opinions that cannot be captured by layer 1 governance</li>
-<li>continuously produce counter-balancing incentives that limit the risk of governance capture by a single voting bloc</li>
-</ul>
-</li>
+<li>TODO</li>
 </ul>
 
                                 
@@ -368,7 +379,7 @@
                 </a>
                 
                 
-                <a href="protocol.html" class="navigation navigation-next " aria-label="Next page: Protocol">
+                <a href="innovation.html" class="navigation navigation-next " aria-label="Next page: Governance Innovation">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -379,7 +390,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Motivation","level":"1.2.1","depth":2,"next":{"title":"Protocol","level":"1.2.2","depth":2,"path":"molten/protocol.md","ref":"molten/protocol.md","articles":[]},"previous":{"title":"Molten","level":"1.2","depth":1,"path":"molten/README.md","ref":"molten/README.md","articles":[{"title":"Motivation","level":"1.2.1","depth":2,"path":"molten/motivation.md","ref":"molten/motivation.md","articles":[]},{"title":"Protocol","level":"1.2.2","depth":2,"path":"molten/protocol.md","ref":"molten/protocol.md","articles":[]},{"title":"V1 financing contract","level":"1.2.3","depth":2,"path":"molten/v1.md","ref":"molten/v1.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"molten/motivation.md","mtime":"2022-11-28T22:21:11.721Z","type":"markdown"},"gitbook":{"version":"4.0.4","time":"2022-11-28T22:22:09.504Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Motivation","level":"1.2.1","depth":2,"next":{"title":"Governance Innovation","level":"1.2.2","depth":2,"path":"molten/innovation.md","ref":"molten/innovation.md","articles":[]},"previous":{"title":"Molten","level":"1.2","depth":1,"path":"molten/README.md","ref":"molten/README.md","articles":[{"title":"Motivation","level":"1.2.1","depth":2,"path":"molten/motivation.md","ref":"molten/motivation.md","articles":[]},{"title":"Governance Innovation","level":"1.2.2","depth":2,"path":"molten/innovation.md","ref":"molten/innovation.md","articles":[]},{"title":"Adaptive Governance","level":"1.2.3","depth":2,"path":"molten/adaptive.md","ref":"molten/adaptive.md","articles":[]},{"title":"Protocol","level":"1.2.4","depth":2,"path":"molten/protocol.md","ref":"molten/protocol.md","articles":[]},{"title":"V1 financing contract","level":"1.2.5","depth":2,"path":"molten/v1.md","ref":"molten/v1.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"molten/motivation.md","mtime":"2022-12-13T00:47:50.013Z","type":"markdown"},"gitbook":{"version":"4.0.4","time":"2022-12-13T17:09:09.463Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
