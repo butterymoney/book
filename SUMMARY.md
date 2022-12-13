@@ -1,8 +1,8 @@
 # Summary
 
-* [Introduction](README.md)
-* [Molten](molten/README.md)
-    * [Motivation](/molten/motivation.md)
-    * [Governance Innovation](/molten/innovation.md)
-    * [Adaptive Governance](/molten/adaptive.md)
-    * [V1 financing contract](molten/v1.md)
+* [Butter](/README.md)
+    * [Problems](/problems.md)
+    * [Motivation](/motivation.md)
+    * [Governance Innovation](/innovation.md)
+    * [Adaptive Governance](/adaptive.md)
+    * [Molten Sequence Diagram](/v1.md)

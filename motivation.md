@@ -41,7 +41,6 @@ Models include:
 - Direct Democracy
 - Representative Democracy
 - Reputation Voting
-- Republic-like
 
 ### **Direct Democracy**
 
@@ -98,7 +97,7 @@ In a representative democracy, token-holders make decisions by voting on proposa
 
 - Uniswap, Gitcoin, Compound, ENS, MakerDAO, AAVE, Radicle, Nouns DAO
 
-### **Reputation voting**
+### **Reputation Voting**
 
 ***One person, one vote OR One contribution/reputation unit, one vote on every proposal*** 
 
@@ -121,26 +120,3 @@ Non-transferable voting based on your membership, reputation and, or contributio
 **Examples**
 
 - Optimism
-
-### **Republic-like DAOs**
-
-***One token, one vote on team appointment proposals*** 
-
-**Description**
-
-Vote in teams to run governance and operations.
-
-**Benefits**
-
-- the governance surface area is bounded and therefore simpler to understand and reason about
-- increase in voter participation
-
-**Limitations**
-
-- principal-agent incentive alignment problem
-- increased bureaucracy / opportunism risk
-- system is only as performant as its observability
-
-**Examples**
-
-- TODO
