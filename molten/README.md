@@ -49,7 +49,7 @@ Finally, we propose a solution to limit corruption and improve stakeholder coope
 
 ### **Corruption** Problems
 
-**Opportunism**. Where a single stake holder or a group of stakeholders is rewarded for acting in their own self interest while punishing all other stakeholders and/or producing outcomes that do not align with the DAO’s objectives.
+**Opportunism**. Where a single stakeholder or group of stakeholders is rewarded for acting in their own self interest while punishing all other stakeholders and/or producing outcomes that do not align with the DAO’s objectives.
 
 - **Example:** Proposing or voting for salary increases or against salary cuts during a budget-cutting exercise.
     - TODO: Add real-world example
