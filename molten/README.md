@@ -36,7 +36,6 @@ Finally, we propose a solution to limit corruption and improve stakeholder coope
 - **Objectives.** The goal or set of goals that constitute the DAO’s organizing purpose, e.g. “Buy the constitution”, “Fund Public Goods”
 - **Acts**. The set of actions or decisions the DAO’s governance mechanism is able to produce and its stakeholders consider, e.g. Add a new asset as collateral in our lending protocol, remove a particular voter’s voting power, increase Token Supply, offboard a contributor, fork the protocol
 - **Outcomes**. The set of outcomes the DAO’s governance mechanism is able to achieve through its actions, e.g. Token Price increases or remains stable, protocol users increase
-- **Legitimacy.** Power granted by governance participants to the governance mechanism through their ongoing implicit agreement to be bound by its decisions
 
 ## Dimensions
 
@@ -44,6 +43,7 @@ Finally, we propose a solution to limit corruption and improve stakeholder coope
 - **Preference Representation**. The degree to which governance participants are able to express their preferences with respect to the DAO’s objectives, e.g. I do not believe the voting mechanism is legitimate
 - **Alignment.** The consistency of a decision when compared to a desired outcome
 - **Coherence of Actions.** The consistency of a series of decisions when compared to one another
+- **Legitimacy.** Power granted by governance participants to the governance mechanism through their ongoing implicit agreement to be bound by its decisions
 
 ## Problems
 
