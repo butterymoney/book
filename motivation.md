@@ -10,7 +10,7 @@ The components of an organisation include, but are not limited to:
 2. a membership policy that produces a set of **members**
 3. an **allocation mechanism** (how the organisation allocates resources), e.g., capitalism, entrepreneurship
 4. a **governance mechanism** (how to update the organisation’s properties), e.g., democracy, board of directors, token-voting
-5. a **standardised store of value ****(how to represent the value of the organisation’s resources), e.g., currency, equity, tokens
+5. a **standardised store of value** (how to represent the value of the organisation’s resources), e.g., currency, equity, tokens
 
 Through blockchains, DAOs proffer the benefits of coordinated human effort at scale without the downsides of centralisation, such as rent-seeking, corruption, collusion, single-point-of-failure, bureaucracy, and capture that undermine our existing institutions.
 
@@ -18,7 +18,7 @@ Generally, many DAO proponents expect DAOs to outperform relative to traditional
 
 It follows that, if Public Goods DAOs are a successful innovation, resources will flow from the state to DAOs leading to an increase in the provision of public goods that do not suffer from the problems caused by centralisation.
 
-In practice, however, it appears that DAOs may not eradicate these issues but simply move them through time and space[[1](https://kelsienabben.substack.com/p/towards-a-model-of-resilience-in#_ftn23)]. Hence, our simple DAO implementations remain vulnerable to many of the issues we expect them to offer an escape from.
+In practice, however, it appears that DAOs may not eradicate these issues but simply move them through time and space[1]. Hence, our simple DAO implementations remain vulnerable to many of the issues we expect them to offer an escape from.
 
 ## DAO Governance
 
@@ -40,7 +40,7 @@ Models include:
 
 - Direct Democracy
 - Representative Democracy
-- Reputation Voting
+- Reputation-based Voting
 
 ### **Direct Democracy**
 
@@ -97,7 +97,7 @@ In a representative democracy, token-holders make decisions by voting on proposa
 
 - Uniswap, Gitcoin, Compound, ENS, MakerDAO, AAVE, Radicle, Nouns DAO
 
-### **Reputation Voting**
+### **Reputation-based Voting**
 
 ***One person, one vote OR One contribution/reputation unit, one vote on every proposal*** 
 

@@ -1,6 +1,6 @@
 # Adaptive Governance
 
-Each governance innovation provides a solution to an aspect of DAO Governance. *Metagovernance* provides a system of meta-incentives to reward or punish governance participants for taking desired actions. *Hybrid Governance* allows secondary mechanisms to arise to empower minority stakeholders and limit the effects of plutocracy and other forms of capture. ******Market Governance****** decomposes governance into self-contained organisations and leverages market forces to create alignment between each group as a limit on bureaucracy and corruption.
+Each governance innovation provides a solution to an aspect of DAO Governance. *Metagovernance* provides a system of meta-incentives to reward or punish governance participants for taking desired actions. *Hybrid Governance* allows secondary mechanisms to arise to empower minority stakeholders and limit the effects of plutocracy and other forms of capture. *Market Governance* decomposes governance into self-contained organisations and leverages market forces to create alignment between each group as a limit on bureaucracy and corruption.
 
 The ideal decentralised governance model in any circumstance is unlikely to be one where voting power is derived entirely from purchasing tokens, being elected, attaining membership, providing labour, or building reputation. 
 

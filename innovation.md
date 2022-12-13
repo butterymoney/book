@@ -30,7 +30,7 @@ Hidden Hand from Redacted Cartel facilitates vote-buying campaigns for participa
 
 Vote buyers, or bribers, deposit bribes for active proposals from a number of partner DAOs and users delegate governance tokens to Hidden Hand’s protocol. The protocol then distributes votes to maximise returns for its users in exchange for a 4% commission of the bribes received.
 
-As an example, $851,364 ****worth of bribes were deposited for 61 proposals on Aura Finance and ****$2,346,024 were deposited for 27 proposal on Balancer.
+As an example, $851,364 worth of bribes were deposited for 61 proposals on Aura Finance and $2,346,024 was deposited for 27 proposals on Balancer.
 
 Hidden Hand also allows partners to implement their own bribe marketplaces so users can select which bribes to accept in exchange for their votes.
 
@@ -80,7 +80,7 @@ Market Governance is co-opted from [Market Governance Mechanisms](https://en.wik
 
 As DAOs have scaled in scope, market cap, and contributors, governance has run into issues of corruption, inertia, and in-fighting, especially where the DAO’s operations are complex. 
 
-As the range and diversity of stakeholders increases, and the potential set of actions and decisions expand, governance must increase the throughput of governance to accommodate, without creating a self-serving bureaucracy.
+As the range and diversity of stakeholders increases, and the potential set of actions and decisions expand, governance must increase its throughput to accommodate, without creating a self-serving bureaucracy.
 
 ### MakerDAO’s MetaDAOs
 

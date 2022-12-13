@@ -14,13 +14,15 @@ The problem space is defined as DAO Governance, in particular:
 - **Participant.** Any individual, collective, or entity that participates in governance
 - **Preference.** A stakeholder’s subjective comparative evaluations over a range of options, e.g. a miner prefers to increase the block reward, over reducing rewards or keeping rewards constant
 - **Objectives.** The goal or set of goals that constitute the DAO’s organizing purpose, e.g. “Buy the constitution”, “Fund Public Goods”
-- **Acts**. The set of actions or decisions the DAO’s governance mechanism is able to produce and its stakeholders consider, e.g. Add a new asset as collateral in our lending protocol, remove a particular voter’s voting power, increase Token Supply, offboard a contributor, fork the protocol
-- **Outcomes**. The set of outcomes the DAO’s governance mechanism is able to achieve through its actions, e.g. Token Price increases or remains stable, protocol users increase
+- **Acts.** The set of actions or decisions the DAO’s governance mechanism is able to produce and its stakeholders consider, e.g. Add a new asset as collateral in our lending protocol, remove a particular voter’s voting power, increase token supply, offboard a contributor, suspend the protocol
+- **Outcomes.** The set of outcomes the DAO’s governance mechanism is able to achieve through its actions, e.g. Token Price increases or remains stable, protocol users increase
 
 ## Dimensions
 
-- **Stakeholder Representation**. The distribution of voting power relative to DAO stakeholders, i.e. users, token holders, stakers, liquidity providers, etc.
-- **Preference Representation**. The degree to which governance participants are able to express their preferences with respect to the DAO’s objectives, e.g. I do not believe the voting mechanism is legitimate
+To measure the effectiveness of a DAO's governance, we consider the following dimensions:
+
+- **Stakeholder Representation.** The distribution of voting power relative to DAO stakeholders, i.e. users, token holders, stakers, liquidity providers, etc.
+- **Preference Representation.** The degree to which governance participants are able to express their preferences with respect to the DAO’s objectives, e.g. I do not believe the voting mechanism is legitimate
 - **Alignment.** The consistency of a decision when compared to a desired outcome
 - **Coherence of Actions.** The consistency of a series of decisions when compared to one another
 - **Legitimacy.** Power granted by governance participants to the governance mechanism through their ongoing implicit agreement to be bound by its decisions
