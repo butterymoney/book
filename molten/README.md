@@ -2,11 +2,10 @@
 
 # Table of Contents
 
-* [Introduction](README.md)
-* [Molten](molten/README.md)
+* [Molten](/README.md)
     * [Motivation](/molten/motivation.md)
     * [Governance Innovation](/molten/innovation.md)
-    * [Opportunity](/molten/opportunity.md)
+    * [Adaptive Governance](/molten/adaptive.md)
     * [Protocol](/molten/protocol.md)
     * [V1 financing contract](molten/v1.md)
 
