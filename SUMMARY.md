@@ -6,4 +6,4 @@
     * [Governance Innovation](/innovation.md)
     * [Proposal](/proposal.md)
     * [Molten](/molten/README.md.md)
-    * [Sequence Diagram](molten/v1.md)
+        * [Sequence Diagram](molten/v1.md)
