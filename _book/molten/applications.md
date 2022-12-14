@@ -1,6 +1,0 @@
-
-# Applications
-
-## SuperPACs
-
-- tbc
