@@ -5,5 +5,5 @@
     * [Problems](/problems.md)
     * [Governance Innovation](/innovation.md)
     * [Proposal](/proposal.md)
-    * [Molten](/molten.md)
-    * [Sequence Diagram](/v1.md)
+    * [Molten](/molten/README.md.md)
+    * [Sequence Diagram](molten/v1.md)
