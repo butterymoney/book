@@ -36,7 +36,6 @@ To measure the effectiveness of a DAO's governance, we consider the following di
 Where a single stakeholder or group of stakeholders is rewarded for acting in their own self interest while punishing all other stakeholders and producing outcomes that do not align with the DAO’s objectives.
 
 **Example:** Proposing or voting for salary increases or against salary cuts during a budget-cutting exercise.
-- TODO: Add real-world example
 
 **Symptoms:**
 - Deviation between outcomes and objectives
@@ -48,7 +47,6 @@ Where a single stakeholder or group of stakeholders is rewarded for acting in th
 Where a minority group of stakeholders possess the power to dictate the DAO’s actions to serve their own preferences while punishing all other stakeholders and producing outcomes that do not align with the DAO’s objectives.
 
 **Example:** Plutocracy, Bureaucracy
-- TODO: Add real-world example
 
 **Symptoms:**
 - Deviation between outcomes and objectives
@@ -60,7 +58,6 @@ Where a minority group of stakeholders possess the power to dictate the DAO’s 
 Where two or more stakeholders or stakeholder groups that operate within or outside the boundaries of the DAO cooperate for their mutual benefit, to the detriment of all other stakeholders and the DAO’s ability to achieve its objectives.
 
 **Example:** [Vote Buying](https://hackingdistributed.com/2018/07/02/on-chain-vote-buying/)
-- TODO: Add real-world example
 
 **Symptoms:**
 - Deviation between outcomes and objectives
@@ -74,7 +71,6 @@ Where two or more stakeholders or stakeholder groups that operate within or outs
 Where an individual or group is able to exploit vulnerabilities in the DAO’s governance mechanism to extract capital.
 
 **Example:** Treasury Drain Attacks, Price Manipulation Attacks, Arbitrageurs, etc.
-- TODO: Add real-world example
 
 **Symptom:**
 - Illegitimate diversion of funds
@@ -86,7 +82,6 @@ Where an individual or group is able to exploit vulnerabilities in the DAO’s g
 Governance is not able to produce decisions that meet the demands of DAO participants or does not reliably produce decisions that align with the objectives of the DAO.
 
 **Example:** Infighting, voter apathy, failure to achieve quorum
-- TODO: Add real-world example
 
 **Symptom:**
 - Reduction in actions and decisions that align with objectives
