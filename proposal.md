@@ -1,7 +1,5 @@
 # Proposal
 
-*We propose cryptoeconomics as a viable solution space for further research*
-
 Each governance innovation provides a solution to an aspect of DAO Governance. 
 
 *Metagovernance* provides a system of secondary incentives to reward or punish governance participants for taking a set of desirable actions.
