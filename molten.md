@@ -1,6 +1,8 @@
 
 # 🌋 Molten
 
+*Molten is WIP. This document will be updated as we conduct ongoing research and development*
+
 Molten offers permissionless deployment of hybrid governance mechanisms in a DAO.
 
 ## Actors
@@ -39,6 +41,10 @@ Molten functions by:
 
 Molten combines both peer incentives, used to incentivize participants to identify governance capture and corruption and increase stakeholder cooperation, and market incentives, to surface and distribute voting power to the most competent and motivated stakeholders capable of keeping powerful voters in check.
 
+We expect peer incentives will provide sufficient rewards to stakeholders that identify corruption or capture[2], in the form of delegated voting power, to limit potential gains from either strategy. We expect market incentives to provide sufficient incentives to encourage cooperation across stakeholders and inform DAO Governance through the proportion of tokens locked in a given mechanism.
+
 ## Implementation
 
 A prototype implementation can be seen [here]().
+
+[2]: https://doi.org/10.1371/journal.pcbi.1004232

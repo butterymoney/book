@@ -121,4 +121,4 @@ Non-transferable voting based on your membership, reputation and, or contributio
 
 - Optimism
 
-[1]: https://kelsienabben.substack.com/p/towards-a-model-of-resilience-in#_ftn23
+[1]: https://kelsienabben.substack.com/p/towards-a-model-of-resilience-in
