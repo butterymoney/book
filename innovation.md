@@ -10,9 +10,9 @@ Metagovernance, in the context of DAOs, is the term commonly used to describe an
 
 Metagovernance is a transparent, often automated, vote buying mechanism that incentivises a target DAO’s token-holders to take an action that benefits the mechanism’s stakeholders, e.g. influence over governance decisions, direction of token emissions, etc.
 
-Metagovernance creates a secondary set of incentives, or meta-incentives that augment the behaviour of primary token-holders.
+Metagovernance creates a secondary set of incentives, or meta-incentives, that augment the behaviour of primary token-holders.
 
-In on-off instances of metagovernance, such as in the case of FEI and Index Coop, the Fei team were able to gain influence in AAVE’s governance using Index Coop’s token holdings.
+In one-off instances of metagovernance, such as in the case of FEI and Index Coop, the Fei team were able to gain influence in AAVE’s governance using Index Coop’s token holdings.
 
 There are also extended forms of metagovernance with DAOs whose entire purpose is to control the governance of other DAOs, such as Convex Finance.
 

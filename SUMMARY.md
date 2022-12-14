@@ -1,8 +1,8 @@
 # Summary
 
 * [Butter](/README.md)
-    * [Problems](/problems.md)
     * [Motivation](/motivation.md)
+    * [Problems](/problems.md)
     * [Governance Innovation](/innovation.md)
-    * [Adaptive Governance](/adaptive.md)
+    * [Proposal](/proposal.md)
     * [Molten Sequence Diagram](/v1.md)
