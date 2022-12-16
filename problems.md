@@ -3,6 +3,7 @@
 ## Problem Space
 
 The problem space is defined as DAO Governance, in particular:
+
 - DAO Governance Attacks
 - DAO Governance Corruption
 - DAO Governance Capture

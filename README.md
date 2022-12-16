@@ -4,7 +4,7 @@ Welcome to Butter.
 
 # Summary
 
-One token, one vote mechanisms are the primary governance mechanism used by DAOs. However, one token, one vote and other token voting governance systems operate as effective plutocracies and are widely considered vulnerable to [corruption](/problems.md#corruption-problems) and [attack](/problems.md#attack-problems).
+One token, one vote mechanisms are the primary governance mechanisms used by DAOs. However, one token, one vote and other token voting governance systems operate as effective plutocracies and are widely considered vulnerable to [corruption](./problems.md#corruption-problems) and [attack](./problems.md#attack-problems).
 
 Large or mature DAOs, and many newer DAOs, have introduced vote delegation in an attempt to scale governance, mitigate voter apathy, and alleviate the risks of plutocracy.
 

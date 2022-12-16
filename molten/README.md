@@ -5,7 +5,7 @@
 
 Molten offers permissionless deployment of hybrid governance mechanisms in a DAO.
 
-## Actors
+## Actors
 
 Molten is designed to coordinate the actions of three actors:
 
