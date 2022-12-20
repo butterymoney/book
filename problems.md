@@ -4,10 +4,8 @@
 
 The problem space is defined as DAO Governance, in particular:
 
-- DAO Governance Attacks
-- DAO Governance Corruption
-- DAO Governance Capture
-- DAO Governance Operations
+- DAO Governance Corruption, including Capture, Collusion, and Opportunism
+- DAO Governance Attacks, including Capital Structure Exploitation
 
 ## Properties
 
@@ -75,14 +73,3 @@ Where an individual or group is able to exploit vulnerabilities in the DAO’s g
 
 **Symptom:**
 - Illegitimate diversion of funds
-
-### Operation Problems
-
-#### Inertia or gridlock
-
-Governance is not able to produce decisions that meet the demands of DAO participants or does not reliably produce decisions that align with the objectives of the DAO.
-
-**Example:** Infighting, voter apathy, failure to achieve quorum
-
-**Symptom:**
-- Reduction in actions and decisions that align with objectives
