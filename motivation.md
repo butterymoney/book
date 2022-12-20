@@ -7,34 +7,36 @@ DAOs are a novel form of organisation, uniquely enabled by blockchains.
 The components of an organisation include, but are not limited to:
 
 1. an **objective** or **purpose**
-2. a membership policy that produces a set of **members**
-3. an **allocation mechanism** (how the organisation allocates resources), e.g., capitalism, entrepreneurship
-4. a **governance mechanism** (how to update the organisation’s properties), e.g., democracy, board of directors, token-voting
-5. a **standardised store of value** (how to represent the value of the organisation’s resources), e.g., currency, equity, tokens
+2. a membership policy that produces a set of **members**, e.g. holds shares, holds tokens, is contracted, etc.
+3. an **allocation mechanism** which defines how the organisation allocates resources
+4. a **governance mechanism** which defines how to update the organisation’s properties
+5. a **standardised store of value** which defines how the organisation values and represents its resources, e.g., currency, equity, tokens
 
-Through blockchains, DAOs proffer the benefits of coordinated human effort at scale without the downsides of centralisation, such as rent-seeking, corruption, collusion, single-point-of-failure, bureaucracy, and capture that undermine our existing institutions.
+<INSERT DIAGRAM: DAO components>
 
-Generally, many DAO proponents expect DAOs to outperform relative to traditional institutions in the provision of public, common, or club goods because these are the goods most prone to capture by a centralised entity, e.g. the state.
+With blockchains operating and enforcing the components of an organization, DAOs claim to organize human effort at scale without the downsides of centralisation, such as capture, corruption, and collusion. Many of which undermine our most-trusted institutions.
 
-It follows that, if Public Goods DAOs are a successful innovation, resources will flow from the state to DAOs leading to an increase in the provision of public goods that do not suffer from the problems caused by centralisation.
+Generally, many DAO proponents expect DAOs to outperform relative to traditional institutions in the provision of public, common, or club goods because they are prone to capture by a centralised entity, e.g. governments.
 
-In practice, however, it appears that DAOs may not eradicate these issues but simply move them through time and space[1]. Hence, our simple DAO implementations remain vulnerable to many of the issues we expect them to offer an escape from.
+In practice, however, it appears that DAOs may not eradicate these issues but simply move them elsewhere in the value chain[1]. Existing DAO implementations, therefore, remain vulnerable to the issues we expect them to offer an escape from.
 
 ## DAO Governance
 
-*DAO governance involves a network of participants coordinating, **without a centralised actor with privileged rights,** to make decisions in pursuit of some goal or outcome, and is formalised or defined under set of shared context(s), e.g. a geography, the law, a market, a cause, etc.*
+*DAO governance involves a network of participants that coordinate to make decisions, **without a centralised actor with privileged rights,** in pursuit of some goal or outcome, and is formalised or defined under set of shared context(s), e.g. a geography, the law, a market, a cause, etc.*
 
-DAOs, like other organisations, implement their own endogenous rulesets that govern all components and the interactions between them, such as the law in the case of nations, compensation, taxation, resource allocation, social choice, etc.
+DAOs, like other organizations, implement internal policies that govern their components and the interactions between them. This includes the law in the case of nations, compensation, taxation, resource allocation, social choice, etc.
 
-DAOs are similarly governed by exogenous policies dictated by their environment such as the law in the case of corporations, market forces, international relations, physics, blockchain protocols, etc.
+DAOs are similarly governed by external policies enforced by their environment, such as the law in the case of corporations, market forces, international relations, physics, blockchain protocols, etc.
 
-Governance mechanisms are, therefore, the component of DAOs that mediates all components and the interactions between them. In particular, the translation of stakeholder preferences into decisions required for the DAO’s instantiation, the enforcement of its boundaries, and its continued operation in accordance with environmental rules, and in respect of competing rulesets, i.e. other DAO governance mechanisms.
+Governance mechanisms can, therefore, be considered the component of DAOs responsible for mediating all DAO components. They are, in turn, mediated by their environment and competing DAOs.
 
-A description of a DAO’s governance mechanism, including the set of functions and parameters under the mechanism’s control, all components, and the interactions between them would sufficiently describe the DAO such that a DAO’s governance mechanism could be considered the DAO itself. Therefore, addressing problems in DAO Governance is potentially the highest value problem to solve in DAOs today to ensure their adoption.
+<INSERT DIAGRAM: DAO Governance Influences>
+
+For the purposes of improving its outputs, a DAO’s governance mechanism could be considered the DAO itself. Therefore, we expect improvements in DAO Governance to be an effective means to realising the expected positive value of DAOs on society.
 
 ## DAO Governance Models
 
-*Note: We recognise that token-voting, is democratic in nature but far from a democracy in the literal sense, however we will use the term democracy to adhere to convention in the broader literature*
+*Note: We recognise that token-voting, though democratic in nature, is far from a democracy in the literal sense. However, we will use the term democracy to adhere to market convention*
 
 Models include:
 
@@ -42,7 +44,7 @@ Models include:
 - Representative Democracy
 - Reputation-based Voting
 
-### **Direct Democracy**
+### Direct Democracy
 
 ***One token, one vote on every proposal*** 
 
@@ -53,12 +55,12 @@ In a direct democracy, token-holders make decisions by voting on proposals, wher
 Governance must configure the following parameters:
 
 - Who has the right to create a proposal
-- How to convert token votes to a decision, e.g. majority-rule, supermajority, quorum-contingent
+- How to convert token votes to a decision, e.g. majority-rule, supermajority, quorum rules
 
 **Benefits**
 
-- Bundling financial upside and governance rights aligns risk and responsibility which incentivises those with the most to gain from price appreciation to make decisions that directly or indirectly maximise price appreciation
-- This is a copy of the equity system which makes it easy for holders to understand
+- Bundling financial upside and governance rights aligns risk and responsibility, which incentivises those with the most to gain from price appreciation to make decisions that directly or indirectly maximise price appreciation
+- This is a copy of the equity system which makes it simple for holders to understand
 
 **Limitations**
 
@@ -69,7 +71,7 @@ Governance must configure the following parameters:
 
 - PleasrDAO, Aavegotchi, VitaDAO
 
-### **Representative Democracy**
+### Representative Democracy
 
 ***One token, one vote on every proposal with vote delegation*** 
 
@@ -79,7 +81,7 @@ In a representative democracy, token-holders make decisions by voting on proposa
 
 - Who has the right to create a proposal
 - How to convert token votes to a decision, e.g. majority-rule, supermajority, quorum-contingent
-- Which rights can be delegated and to who
+- Which rights can be delegated and to whom
 
 **Benefits**
 
@@ -97,7 +99,7 @@ In a representative democracy, token-holders make decisions by voting on proposa
 
 - Uniswap, Gitcoin, Compound, ENS, MakerDAO, AAVE, Radicle, Nouns DAO
 
-### **Reputation-based Voting**
+### Reputation-based Voting
 
 ***One person, one vote OR One contribution/reputation unit, one vote on every proposal*** 
 
@@ -107,9 +109,9 @@ Non-transferable voting based on your membership, reputation and, or contributio
 
 **Benefits**
 
-- more equitable
+- more equitable relative to token-weighted voting, i.e. meritocratic
 - aligns contribution and power
-- not vulnerable to plutocracy
+- does not produce plutocracy
 
 **Limitations**
 
