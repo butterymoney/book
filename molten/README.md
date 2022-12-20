@@ -1,50 +1,66 @@
 
 # 🌋 Molten
 
-*Molten is WIP. This document will be updated as we conduct ongoing research and development*
+*Molten is WIP. This document will be updated as we conduct ongoing research and development.*
 
-Molten offers permissionless deployment of hybrid governance mechanisms in a DAO.
+Molten incentivizes voters to pool their votes to deter opportunistic behaviour by large token holders.
 
 ## Actors
 
 Molten is designed to coordinate the actions of three actors:
 
-**Fundraisers.** Stakeholder with the objective to accrue voting power to express their preferences, but lack resources. Equivalent to a delegate in a DAO with vote delegation. 
+**Representative.** Stakeholder that wants to accrue voting power but lacks resources. Equivalent to a delegate in a DAO with vote delegation.
 
-**Liquidity Providers.** Stakeholder with the objective to accrue voting power to express their preferences, and have adequate resources.
+**Voter.** Stakeholder that wants protection against large voters and has adequate resources.
 
-**DAO Governance.** Governance mechanism with the objective to secure and allocate resources in pursuit of its objective. 
+**DAO Governance.** Governance mechanism that wants to allocate resources in pursuit of its objective.
 
 ## Components
 
 Molten is comprised of:
 
-**Fundraiser Contract.** Contract created by Fundraisers to store liquidity, lock Governance Tokens, and issue mTokens. Contract also exposes `exchange` function which can be called by the target DAO's treasury address.
+**Campaigns.** A period of time within which Voters pool their tokens in order to delegate voting power to a Representative. Can be launched by Representative once Campaign threshold is achieved, e.g. 100,000 governance tokens deposited.
 
-**mTokens.** Tokens issued to Liquidity Providers following a successful exchange. Each token represents a claim on the underlying governance tokens locked in the Fundraiser contract. 
+**Campaign Manager.** Contract that manages all Campaigns, including types, parameters, and rewards.
 
-**Price Oracle** Oracle used to determine the governance token exchange rate when the `exchange` function is called.
+**Molten Pot.** Contract created by Representatives to lock tokens during a Campaign. Voters deposit and claim tokens from Pots. Deposits are frozen once a Campaign is launched.
+
+**Molten Pot Factory.** Contract used to create Pots.
+
+**Reward.** Fixed token reward, e.g. 30,000 DAI, claimable in proportion to Voters' Pot claim at the end of a Campaign.
+
+**mTokens.** Tokens issued to Voters during a Campaign. Each token represents a proportional claim on the underlying governance tokens and rewards locked in the Pot contract. 
 
 ## Operation
 
-Molten functions by: 
+<INSERT DIAGRAM: Components interacting>
 
-1. Pooling liquidity from minority stakeholders for DAO governance tokens, thereby incentivizing DAOs to sell governance tokens and distribute voting power in exchange for deep on-chain liquidity
+1. Molten uses the Campaign Manager to create a new Campaign Type and sets Campaign duration, Campaign threshold, Reward amount, target DAO Governance Token (ERC20). Molten deposits the reward in the Campaign Manager
 
-2. Locking governance tokens in a contract under the control of its owner, the fundraising stakeholder responsible for deploying the contract, or another governance mechanism, incentivizing stakeholders to seek governance corruption or capture where there are opportunities to aggregate and represent minority interests in exchange for voting power 
+2. Representatives create Campaigns and broadcast their Campaign and Molten Pot contract address to Voters
 
-3. Issuing governance token derivatives to liquidity providers, redeemable at maturity for the underlying governance tokens and free to trade on secondary markets, while amplifying their preferences through vote delegation, incentivizing liquidity providers to seek out stakeholders that suitably represent their preferences
+3. Voters deposit tokens into Molten Pots attached to Representatives they believe will pool the most voting power for a Campaign
+   
+4. Once a Molten Pot attached to a Representative exceeds the Campaign threshold, the Representative can launch the Campaign. This ends all other Campaigns of the same type, allowing Voters to claim tokens from the Molten Pots
 
-4. Granting governance token derivative holders a means to liquidate the contract, for a penalty, if the fundraising stakeholder is no longer voting in-line with their preferences, incentivizing fundraising stakeholders to avoid deviating from their agreement with liquidity providers when voting in the target DAO
+5. Once the Campaign is launched, Molten Pots delegate pooled governance token voting power to Representatives, e.g. AAVE, and issue mTokens to Voters, e.g. mAAVE
+
+6. Once the Campaign duration is reached, the underlying governance tokens and Rewards are claimable from the Molten Pot & Campaign Manager
+
+7. During the campaign, should mToken holders decide that a Representative is no longer protecting their interests they can vote to terminate the Campaign, removing the Representative's voting power and forfeiting the Reward for all parties
 
 ## Outcome
 
-Molten combines both peer incentives, used to incentivize participants to identify governance capture and corruption and increase stakeholder cooperation, and market incentives, to surface and distribute voting power to the most competent and motivated stakeholders capable of keeping powerful voters in check.
+Molten combines peer incentives, used to incentivize Representatives to identify governance capture and corruption and increase stakeholder cooperation, and market incentives, to surface and distribute voting power to the most competent and motivated Representatives capable of keeping powerful voters in check.
 
-We expect peer incentives will provide sufficient rewards to stakeholders that identify corruption or capture[2], in the form of delegated voting power, to limit potential gains from either strategy. We expect market incentives to provide sufficient incentives to encourage cooperation across stakeholders and inform DAO Governance through the proportion of tokens locked in a given mechanism.
+We expect peer incentives will provide sufficient rewards to Representatives that identify corruption or capture[2], in the form of delegated voting power, to limit potential gains from either strategy, creating an effective deterrent.
+
+We expect market incentives to encourage competent Representatives to emerge, able to monitor and counter opportunism by large voters.
+
+Given the presence of both peer incentives and market incentives, we believe that coordination costs are the most significant barrier to voters pursuing a collective voting strategy. We hope to prove the effectiveness of an incentive on voter coordination.
 
 ## Implementation
 
-A prototype implementation can be seen [here]().
+A prototype implementation can be seen [here](https://github.com/butterymoney/molten/).
 
 [2]: https://doi.org/10.1371/journal.pcbi.1004232
