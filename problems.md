@@ -11,7 +11,7 @@ The problem space is defined as DAO Governance, in particular:
 
 - **Stakeholder.** Any individual, collective, or entity that experiences externalities due to the actions of the DAO, e.g. Token-holder, user, delegate, staker/miner, etc.
 - **Participant.** Any individual, collective, or entity that participates in governance
-- **Preference.** A stakeholder’s subjective comparative evaluations over a range of options, e.g. a miner prefers to increase the block reward, over reducing rewards or keeping rewards constant
+- **Preference.** A stakeholder’s subjective, comparative evaluations over a range of options, e.g. a miner prefers to increase the block reward, over reducing rewards or keeping rewards constant
 - **Objectives.** The goal or set of goals that constitute the DAO’s organizing purpose, e.g. “Buy the constitution”, “Fund Public Goods”
 - **Acts.** The set of actions or decisions the DAO’s governance mechanism is able to produce and its stakeholders consider, e.g. Add a new asset as collateral in our lending protocol, remove a particular voter’s voting power, increase token supply, offboard a contributor, suspend the protocol
 - **Outcomes.** The set of outcomes the DAO’s governance mechanism is able to achieve through its actions, e.g. Token Price increases or remains stable, protocol users increase

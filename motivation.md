@@ -7,18 +7,18 @@ DAOs are a novel form of organisation, uniquely enabled by blockchains.
 The components of an organisation include, but are not limited to:
 
 1. an **objective** or **purpose**
-2. a membership policy that produces a set of **members**, e.g. holds shares, holds tokens, is contracted, etc.
+2. a **membership policy** that produces a set of members, e.g. holds shares, holds tokens, is contracted, etc.
 3. an **allocation mechanism** which defines how the organisation allocates resources
-4. a **governance mechanism** which defines how to update the organisation’s properties
-5. a **standardised store of value** which defines how the organisation values and represents its resources, e.g., currency, equity, tokens
+4. a **standardised store of value** which defines how the organisation values and represents its resources, e.g., currency, equity, tokens
+5. a **governance mechanism** which defines how to update the organisation’s properties, e.g. membership policy, allocation mechanism, etc.
 
 <INSERT DIAGRAM: DAO components>
 
-With blockchains operating and enforcing the components of an organization, DAOs claim to organize human effort at scale without the downsides of centralisation, such as capture, corruption, and collusion. Many of which undermine our most-trusted institutions.
+DAOs, through their use of blockchains, claim to provide the benefits of large-scale coordination without the downsides of centralization. These downsides inlcude capture, corruption, and collusion—-problems that undermine our most-trusted institutions.
 
-Generally, many DAO proponents expect DAOs to outperform relative to traditional institutions in the provision of public, common, or club goods because they are prone to capture by a centralised entity, e.g. governments.
+Generally, DAO proponents expect DAOs to replace traditional institutions in the provision of public, common, or club goods. When these institutions fail, centralisaion is usually a root cause, e.g. bureaucracy, corruption, principal-agent problems.
 
-In practice, however, it appears that DAOs may not eradicate these issues but simply move them elsewhere in the value chain[1]. Existing DAO implementations, therefore, remain vulnerable to the issues we expect them to offer an escape from.
+In practice, however, it appears that DAOs do not offer effective solutions to these problems and often move them elsewhere in the value chain[1]. Current DAO implementations, therefore, remain vulnerable to the same issues faced by our incumbent institutions.
 
 ## DAO Governance
 
@@ -32,7 +32,7 @@ Governance mechanisms can, therefore, be considered the component of DAOs respon
 
 <INSERT DIAGRAM: DAO Governance Influences>
 
-For the purposes of improving its outputs, a DAO’s governance mechanism could be considered the DAO itself. Therefore, we expect improvements in DAO Governance to be an effective means to realising the expected positive value of DAOs on society.
+For the purposes of improving its outcomes, a DAO’s governance mechanism could be considered the DAO itself. Therefore, we expect improvements in DAO Governance to be an effective means to realising the expected positive value of DAOs on society.
 
 ## DAO Governance Models
 
@@ -60,12 +60,12 @@ Governance must configure the following parameters:
 **Benefits**
 
 - Bundling financial upside and governance rights aligns risk and responsibility, which incentivises those with the most to gain from price appreciation to make decisions that directly or indirectly maximise price appreciation
-- This is a copy of the equity system which makes it simple for holders to understand
+- This replicates features of the equity system, which makes it simple for holders to understand
 
 **Limitations**
 
 - Keeps out those who may be affected by governance but don’t have the capital to acquire governance rights
-- Tends towards plutocracy which if left unchecked leads to failure through a focus on price appreciation, regardless of negative externalities
+- Tends towards plutocracy which, if left unchecked, leads to failure through a focus on price appreciation, regardless of negative externalities
 
 **Examples**
 
@@ -77,16 +77,18 @@ Governance must configure the following parameters:
 
 **Description**
 
-In a representative democracy, token-holders make decisions by voting on proposals, where each token is equivalent to a vote, but can also delegate their voting power to a representative. Delegated voting is increasingly becoming the most popular governance mechanism, especially for mature, large DAOs. Governance must configure the following parameters:
+In a representative democracy, token-holders make decisions by voting on proposals, where each token is equivalent to a vote, but can also delegate their voting power to a representative. Delegated voting is increasingly becoming the most popular governance mechanism, especially for mature, large DAOs. 
+
+Governance must configure the following parameters:
 
 - Who has the right to create a proposal
-- How to convert token votes to a decision, e.g. majority-rule, supermajority, quorum-contingent
+- How to convert token votes to a decision, e.g. majority-rule, supermajority, quorum rules
 - Which rights can be delegated and to whom
 
 **Benefits**
 
 - Aligns incentives by unbundling financial risk and governance power and allocating them to domain experts
-- Allows governance rights to accrue to representatives voters believe are best placed to represent their preferences
+- Allows governance rights to accrue to representatives whom voters believe are best placed to represent their preferences
 - Reduces voter apathy
 
 **Limitations**
@@ -121,6 +123,6 @@ Non-transferable voting based on your membership, reputation and, or contributio
 
 **Examples**
 
-- Optimism
+- Optimism's Citizen's House
 
 [1]: https://kelsienabben.substack.com/p/towards-a-model-of-resilience-in

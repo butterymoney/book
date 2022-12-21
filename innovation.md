@@ -40,13 +40,13 @@ Hidden Hand also allows partners to implement their own bribe marketplaces so us
 
 Index Coop, a provider of token indexes, actively encouraged metagovernance for a small number of the tokens held in their DeFi Pulse Index, namely Maker, AAVE, and Compound--a service they promoted as metagovernance-as-a-service.
 
-Under this arrangement, holders of INDEX tokens can use governance tokens held as part of the index service to make proposals or vote on proposals within MakerDAO, Aave, and Compound.
+Under this arrangement, holders of INDEX tokens could use governance tokens held as part of the index service to make or vote on proposals within MakerDAO, AAVE, and Compound.
 
 In September 2021, Fei protocol, a stablecoin issuer, created a proposal to list the FEI token on AAVE, using the AAVE token holdings in Index Coop’s DPI.
 
 AAVE’s governance, specifically, requires 80,000 AAVE tokens before a holder can make a governance proposal. At that time, AAVE was trading at $327.04, setting the cost of proposal creation on AAVE at over $26m.
 
-As a result, the Fei team were able to use $4m of INDEX tokens to control over 118,000 AAVE, worth ~$36m, allowing the team to successfully list their token on AAVE.
+As a result of metagovernance, the Fei team were able to use $4m of INDEX tokens to control over 118,000 AAVE, worth ~$36m, allowing the team to successfully list their token on AAVE.
 
 ## Hybrid Governance
 

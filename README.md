@@ -14,4 +14,6 @@ However, many recent and well-known examples of plutocracy involve DAOs, includi
 
 We examine the DAO governance problem space and highlight promising in-market solutions, including hybrid governance, metagovernance, and market-based governance.
 
-We propose cryptoeconomics, a system of economic incentives designed to produce behaviours in a micro environment that create desirable, emergent properties in a macro environment, as a viable solution space for further research and define a system that seeks to prove improve stakeholder cooperation in DAO Governance through incentives designed to make corruption an unprofitable strategy.
+We propose cryptoeconomics, a system of economic incentives designed to produce behaviours at the micro scale that create desirable, emergent properties at the macro scale, as a viable solution space for further exploration.
+
+Finally we describe Molten, a system that aims to address the risks related to plutocracy in DAO Governance using incentives designed to make corruption an unprofitable strategy.

@@ -13,7 +13,7 @@ Molten is designed to coordinate the actions of three actors:
 
 **Voter.** Stakeholder that wants protection against large voters and has adequate resources.
 
-**DAO Governance.** Governance mechanism that wants to allocate resources in pursuit of its objective.
+**Target DAO.** DAO that wants to allocate resources in pursuit of its objective.
 
 ## Components
 
@@ -35,19 +35,21 @@ Molten is comprised of:
 
 <INSERT DIAGRAM: Components interacting>
 
-1. Molten uses the Campaign Manager to create a new Campaign Type and sets Campaign duration, Campaign threshold, Reward amount, target DAO Governance Token (ERC20). Molten deposits the reward in the Campaign Manager
+1. Molten uses the Campaign Manager to create a new Campaign Type and sets Campaign duration, Target DAO Governance Token (ERC20) 
 
 2. Representatives create Campaigns and broadcast their Campaign and Molten Pot contract address to Voters
 
 3. Voters deposit tokens into Molten Pots attached to Representatives they believe will pool the most voting power for a Campaign
+
+4. Target DAO deposits Reward in the Campaign Manager for the respective Campaign Type and sets Campaign threshold
    
-4. Once a Molten Pot attached to a Representative exceeds the Campaign threshold, the Representative can launch the Campaign. This ends all other Campaigns of the same type, allowing Voters to claim tokens from the Molten Pots
+5. Once a Molten Pot attached to a Representative exceeds the Campaign threshold, the Representative can launch the Campaign. This ends all other Campaigns of the same type, allowing Voters to claim tokens from the Molten Pots
 
-5. Once the Campaign is launched, Molten Pots delegate pooled governance token voting power to Representatives, e.g. AAVE, and issue mTokens to Voters, e.g. mAAVE
+6. Once the Campaign is launched, Molten Pots delegate pooled governance token voting power to Representatives, e.g. AAVE, and issue mTokens to Voters, e.g. mAAVE
 
-6. Once the Campaign duration is reached, the underlying governance tokens and Rewards are claimable from the Molten Pot & Campaign Manager
+7. Once the Campaign duration is reached, the underlying governance tokens and Rewards are claimable from the Molten Pot & Campaign Manager
 
-7. During the campaign, should mToken holders decide that a Representative is no longer protecting their interests they can vote to terminate the Campaign, removing the Representative's voting power and forfeiting the Reward for all parties
+8. During the campaign, should mToken holders decide that a Representative is no longer protecting their interests they can vote to terminate the Campaign, removing the Representative's voting power and forfeiting the Reward for all parties
 
 ## Outcome
 
