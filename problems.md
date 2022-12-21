@@ -4,16 +4,14 @@
 
 The problem space is defined as DAO Governance, in particular:
 
-- DAO Governance Attacks
-- DAO Governance Corruption
-- DAO Governance Capture
-- DAO Governance Operations
+- DAO Governance Corruption, including Capture, Collusion, and Opportunism
+- DAO Governance Attacks, including Capital Structure Exploitation
 
 ## Properties
 
 - **Stakeholder.** Any individual, collective, or entity that experiences externalities due to the actions of the DAO, e.g. Token-holder, user, delegate, staker/miner, etc.
 - **Participant.** Any individual, collective, or entity that participates in governance
-- **Preference.** A stakeholder’s subjective comparative evaluations over a range of options, e.g. a miner prefers to increase the block reward, over reducing rewards or keeping rewards constant
+- **Preference.** A stakeholder’s subjective, comparative evaluations over a range of options, e.g. a miner prefers to increase the block reward, over reducing rewards or keeping rewards constant
 - **Objectives.** The goal or set of goals that constitute the DAO’s organizing purpose, e.g. “Buy the constitution”, “Fund Public Goods”
 - **Acts.** The set of actions or decisions the DAO’s governance mechanism is able to produce and its stakeholders consider, e.g. Add a new asset as collateral in our lending protocol, remove a particular voter’s voting power, increase token supply, offboard a contributor, suspend the protocol
 - **Outcomes.** The set of outcomes the DAO’s governance mechanism is able to achieve through its actions, e.g. Token Price increases or remains stable, protocol users increase
@@ -75,14 +73,3 @@ Where an individual or group is able to exploit vulnerabilities in the DAO’s g
 
 **Symptom:**
 - Illegitimate diversion of funds
-
-### Operation Problems
-
-#### Inertia or gridlock
-
-Governance is not able to produce decisions that meet the demands of DAO participants or does not reliably produce decisions that align with the objectives of the DAO.
-
-**Example:** Infighting, voter apathy, failure to achieve quorum
-
-**Symptom:**
-- Reduction in actions and decisions that align with objectives
