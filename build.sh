@@ -8,6 +8,7 @@ cat SUMMARY.md \
   | xargs -I {} pandoc --from markdown --to latex {}.md \
   | sed -e 's/🧈 *//g' \
   | sed -e 's/🌋 *//g' \
+  | sed -e 's#includegraphics{/img#includegraphics[width=\\textwidth]{./img#g' \
   > "$tmpfile"
 
 gsed -e '/%%INSERTHERE%%/ { 
