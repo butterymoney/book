@@ -16,7 +16,7 @@ The components of an organisation include, but are not limited to:
 
 DAOs, through their use of blockchains, claim to provide the benefits of large-scale coordination without the downsides of centralization. These downsides inlcude capture, corruption, and collusion—-problems that undermine our most-trusted institutions.
 
-Generally, DAO proponents expect DAOs to replace traditional institutions in the provision of public, common, or club goods. When these institutions fail, centralisaion is usually a root cause, e.g. bureaucracy, corruption, principal-agent problems.
+Generally, DAO proponents expect DAOs to replace traditional institutions in the provision of public, common, or club goods. When these institutions fail, centralisation is usually a root cause, e.g. bureaucracy, corruption, principal-agent problems.
 
 In practice, however, it appears that DAOs do not offer effective solutions to these problems and often move them elsewhere in the value chain[1]. Current DAO implementations, therefore, remain vulnerable to the same issues faced by our incumbent institutions.
 

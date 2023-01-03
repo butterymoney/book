@@ -3,13 +3,13 @@
 
 *Molten is WIP. This document will be updated as we conduct ongoing research and development.*
 
-Molten incentivizes voters to pool their votes to deter opportunistic behaviour by large token holders.
+Molten incentivizes voters to pool their votes to deter opportunistic behavior by large token holders.
 
 ## Actors
 
-Molten is designed to coordinate the actions of three actors:
+Molten coordinates the actions of three actors:
 
-**Representative.** Stakeholder that wants to accrue voting power but lacks resources. Equivalent to a delegate in a DAO with vote delegation.
+**Representative.** Stakeholder that wants to accrue voting power but needs more resources. Equivalent to a delegate in a DAO with vote delegation.
 
 **Voter.** Stakeholder that wants protection against large voters and has adequate resources.
 
