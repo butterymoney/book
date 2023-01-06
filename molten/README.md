@@ -33,7 +33,7 @@ Molten's components include:
 
 ## Operation
 
-<INSERT DIAGRAM: Components interacting>
+![Components Interacting](/img/molten_interactions.png)
 
 1. Molten uses the Campaign Manager to create a new Campaign Type and sets Campaign duration, Target DAO Governance Token (ERC20) 
 
