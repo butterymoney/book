@@ -12,9 +12,7 @@ The components of an organization include, but are not limited to:
 4. a **standardized store of value** which defines how the organization values and represents its resources, e.g., currency, equity, tokens
 5. a **governance mechanism** that defines how to update the organization's properties, e.g., membership policies and allocation mechanisms.
 
-<INSERT DIAGRAM: DAO components>
 ![DAO Components](/img/components.png)
-
 
 DAOs, through their use of blockchains, claim to provide the benefits of large-scale coordination without the downsides of centralization. These downsides include capture, corruption, and collusion—-problems that undermine our most-trusted institutions.
 
@@ -32,7 +30,7 @@ Similarly, external policies enforced by the environment govern organizations. E
 
 Therefore, governance mechanisms can be considered the component of DAOs responsible for mediating all DAO components. They are, in turn, mediated by their environment and competing DAOs.
 
-<INSERT DIAGRAM: DAO Governance Influences>
+![Governance Influence](img/governance_influence.png)
 
 Considering a DAOs ability to affect its outcomes, a DAO's governance mechanism can be considered the DAO itself. Therefore, we expect improvements in DAO Governance to be an effective means to realize the expected positive value of DAOs on society.
 
