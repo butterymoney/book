@@ -13,6 +13,8 @@ The components of an organization include, but are not limited to:
 5. a **governance mechanism** that defines how to update the organization's properties, e.g., membership policies and allocation mechanisms.
 
 <INSERT DIAGRAM: DAO components>
+![DAO Components](/img/components.png)
+
 
 DAOs, through their use of blockchains, claim to provide the benefits of large-scale coordination without the downsides of centralization. These downsides include capture, corruption, and collusion—-problems that undermine our most-trusted institutions.
 
