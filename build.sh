@@ -15,3 +15,5 @@ gsed -e '/%%INSERTHERE%%/ {
   r '"$tmpfile"'
   d
 }' template.tex > butter.tex
+
+latexmk butter.tex
