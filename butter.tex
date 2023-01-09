@@ -72,14 +72,13 @@ payments.
 \section{Summary}\label{summary}}
 
 One token, one vote mechanisms are the most popular governance
-mechanisms used by DAOs. However, one token, one vote and other token
+mechanisms used by DAOs. However, one token, one vote, and other token
 voting systems are plutocracies and widely considered vulnerable to
 \href{./problems.md\#corruption-problems}{corruption} and
 \href{./problems.md\#attack-problems}{attack}.
 
 Large or mature DAOs, and many newer DAOs, have introduced vote
-delegation in an attempt to scale governance and alleviate the risks of
-plutocracy.
+delegation to scale governance and alleviate the risks of plutocracy.
 
 However, many recent and well-known examples of plutocracy involve DAOs,
 including ENS DAO, Sushi DAO, and MakerDAO, in which vote delegation is
@@ -90,11 +89,11 @@ in-market solutions, including hybrid governance, metagovernance, and
 market-based governance.
 
 We propose cryptoeconomics, a system of economic incentives designed to
-produce behaviours at the micro scale that create desirable, emergent
+produce behaviors at the micro-scale that create desirable, emergent
 properties at the macro scale, as a viable solution space for further
 exploration.
 
-Finally we describe Molten, a system that aims to address the risks
+Finally, we describe Molten, a system that aims to address the risks
 related to plutocracy in DAO Governance using incentives designed to
 make corruption an unprofitable strategy.
 \hypertarget{motivation}{%
@@ -104,9 +103,9 @@ make corruption an unprofitable strategy.
 \subsection{Decentralised Autonomous
 Organisations}\label{decentralised-autonomous-organisations}}
 
-DAOs are a novel form of organisation, uniquely enabled by blockchains.
+DAOs are a novel form of organization uniquely enabled by blockchains.
 
-The components of an organisation include, but are not limited to:
+The components of an organization include, but are not limited to:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -114,68 +113,80 @@ The components of an organisation include, but are not limited to:
 \item
   an \textbf{objective} or \textbf{purpose}
 \item
-  a \textbf{membership policy} that produces a set of members,
-  e.g.~holds shares, holds tokens, is contracted, etc.
+  a \textbf{membership policy} that produces a set of members, e.g.,
+  holds shares, holds tokens, is contracted.
 \item
-  an~\textbf{allocation mechanism}~which defines how the organisation
+  an \textbf{allocation mechanism} which defines how the organization
   allocates resources
 \item
-  a~\textbf{standardised store of value} which defines how the
-  organisation values and represents its resources, e.g., currency,
+  a \textbf{standardized store of value} which defines how the
+  organization values and represents its resources, e.g., currency,
   equity, tokens
 \item
-  a~\textbf{governance mechanism}~which defines how to update the
-  organisation's properties, e.g.~membership policy, allocation
-  mechanism, etc.
+  a \textbf{governance mechanism} that defines how to update the
+  organization's properties, e.g., membership policies and allocation
+  mechanisms.
 \end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{./img/components.png}
+\caption{DAO Components}
+\end{figure}
 
 DAOs, through their use of blockchains, claim to provide the benefits of
 large-scale coordination without the downsides of centralization. These
-downsides inlcude capture, corruption, and collusion----problems that
+downsides include capture, corruption, and collusion----problems that
 undermine our most-trusted institutions.
 
 Generally, DAO proponents expect DAOs to replace traditional
-institutions in the provision of public, common, or club goods. When
-these institutions fail, centralisaion is usually a root cause,
-e.g.~bureaucracy, corruption, principal-agent problems.
+institutions in providing public, common, or club goods. When these
+institutions fail, centralization is usually a root cause, e.g.,
+bureaucracy, corruption, and principal-agent problems.
 
-In practice, however, it appears that DAOs do not offer effective
-solutions to these problems and often move them elsewhere in the value
-chain\href{https://kelsienabben.substack.com/p/towards-a-model-of-resilience-in}{1}.
-Current DAO implementations, therefore, remain vulnerable to the same
-issues faced by our incumbent institutions.
+In practice, however, DAOs do not offer solutions to these problems and
+often move them
+\href{https://kelsienabben.substack.com/p/towards-a-model-of-resilience-in}{elsewhere
+in the value chain}. Current DAO implementations, therefore, remain
+vulnerable to the same issues faced by our incumbent institutions.
 
 \hypertarget{dao-governance}{%
 \subsection{DAO Governance}\label{dao-governance}}
 
 \emph{DAO governance involves a network of participants that coordinate
-to make decisions, \textbf{without a centralised actor with privileged
-rights,} in pursuit of some goal or outcome, and is formalised or
-defined under set of shared context(s), e.g.~a geography, the law, a
-market, a cause, etc.}
+to make decisions, \textbf{without a centralized actor with privileged
+rights,} in pursuit of some goal or outcome, and is formalized or
+defined under a set of shared context(s), e.g., a territory, the law, a
+market, or a cause.}
 
 DAOs, like other organizations, implement internal policies that govern
-their components and the interactions between them. This includes the
-law in the case of nations, compensation, taxation, resource allocation,
-social choice, etc.
+their components and the interactions between them. Internal policies
+include the law in the case of nations, compensation, taxation, resource
+allocation, and social choice.
 
-DAOs are similarly governed by external policies enforced by their
-environment, such as the law in the case of corporations, market forces,
-international relations, physics, blockchain protocols, etc.
+Similarly, external policies enforced by the environment govern
+organizations. External policies include corporate law, market forces,
+international relations, physics, and blockchain protocols.
 
-Governance mechanisms can, therefore, be considered the component of
-DAOs responsible for mediating all DAO components. They are, in turn,
+Therefore, governance mechanisms can be considered the component of DAOs
+responsible for mediating all DAO components. They are, in turn,
 mediated by their environment and competing DAOs.
 
-For the purposes of improving its outcomes, a DAO's governance mechanism
-could be considered the DAO itself. Therefore, we expect improvements in
-DAO Governance to be an effective means to realising the expected
-positive value of DAOs on society.
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{./img/governance_influence.png}
+\caption{Governance Influence}
+\end{figure}
+
+Considering a DAOs ability to affect its outcomes, a DAO's governance
+mechanism can be considered the DAO itself. Therefore, we expect
+improvements in DAO Governance to be an effective means to realize the
+expected positive value of DAOs on society.
 
 \hypertarget{dao-governance-models}{%
 \subsection{DAO Governance Models}\label{dao-governance-models}}
 
-\emph{Note: We recognise that token-voting, though democratic in nature,
+\emph{Note: We recognize that token voting, though democratic in nature,
 is far from a democracy in the literal sense. However, we will use the
 term democracy to adhere to market convention}
 
@@ -199,9 +210,9 @@ Models include:
 \textbf{Description}
 
 In a direct democracy, token-holders make decisions by voting on
-proposals, where each token is equivalent to a vote. Currently, this is
-the governance mechanism used by the majority of DAOs, especially
-smaller, younger DAOs.
+proposals, where each token is equivalent to a vote. Direct Democracy is
+the governance mechanism used by most DAOs, specifically smaller,
+younger DAOs.
 
 Governance must configure the following parameters:
 
@@ -210,7 +221,7 @@ Governance must configure the following parameters:
 \item
   Who has the right to create a proposal
 \item
-  How to convert token votes to a decision, e.g.~majority-rule,
+  How to convert token votes to a decision, e.g., majority-rule,
   supermajority, quorum rules
 \end{itemize}
 
@@ -220,9 +231,9 @@ Governance must configure the following parameters:
 \tightlist
 \item
   Bundling financial upside and governance rights aligns risk and
-  responsibility, which incentivises those with the most to gain from
+  responsibility, which incentivizes those with the most to gain from
   price appreciation to make decisions that directly or indirectly
-  maximise price appreciation
+  maximize price appreciation
 \item
   This replicates features of the equity system, which makes it simple
   for holders to understand
@@ -233,10 +244,10 @@ Governance must configure the following parameters:
 \begin{itemize}
 \tightlist
 \item
-  Keeps out those who may be affected by governance but don't have the
+  Keeps out those who may be affected by governance but do not have the
   capital to acquire governance rights
 \item
-  Tends towards plutocracy which, if left unchecked, leads to failure
+  Tends towards plutocracy, which, if left unchecked, leads to failure
   through a focus on price appreciation, regardless of negative
   externalities
 \end{itemize}
@@ -259,7 +270,7 @@ delegation}}
 \textbf{Description}
 
 In a representative democracy, token-holders make decisions by voting on
-proposals, where each token is equivalent to a vote, but can also
+proposals, where each token is equivalent to a vote but can also
 delegate their voting power to a representative. Delegated voting is
 increasingly becoming the most popular governance mechanism, especially
 for mature, large DAOs.
@@ -271,10 +282,10 @@ Governance must configure the following parameters:
 \item
   Who has the right to create a proposal
 \item
-  How to convert token votes to a decision, e.g.~majority-rule,
+  How to convert token votes to a decision, e.g., majority-rule,
   supermajority, quorum rules
 \item
-  Which rights can be delegated and to whom
+  Which rights are delegatable and to whom
 \end{itemize}
 
 \textbf{Benefits}
@@ -285,8 +296,8 @@ Governance must configure the following parameters:
   Aligns incentives by unbundling financial risk and governance power
   and allocating them to domain experts
 \item
-  Allows governance rights to accrue to representatives~whom voters
-  believe are best placed to represent their preferences
+  Allows governance rights to accrue to representatives whom voters
+  believe best represent their preferences
 \item
   Reduces voter apathy
 \end{itemize}
@@ -297,12 +308,12 @@ Governance must configure the following parameters:
 \tightlist
 \item
   As delegation scales, the nuance of voter preferences is diluted to
-  the preferences of a smaller subset of voters, i.e.~the delegates,
+  the preferences of a smaller subset of voters, i.e., the delegates,
   which is less representative of the population
 \item
   Forces the voter to find a single delegate who represents their entire
-  range of preferences across all possible decisions (though tokens
-  could be split across wallets or delegation functionality enhanced)
+  range of preferences across all possible decisions (though voters can
+  split tokens across wallets or enhance delegation functionality)
 \item
   Allowing voters to delegate enables a more persistent form of voter
   apathy, as seen in our traditional political system
@@ -324,15 +335,15 @@ one vote on every proposal}}
 
 \textbf{Description}
 
-Non-transferable voting based on your membership, reputation and, or
-contribution.
+Non-transferable voting. Based on an entity's membership, reputation,
+and, or contribution.
 
 \textbf{Benefits}
 
 \begin{itemize}
 \tightlist
 \item
-  more equitable relative to token-weighted voting, i.e.~meritocratic
+  more equitable relative to token-weighted voting, i.e., meritocratic
 \item
   aligns contribution and power
 \item
@@ -365,7 +376,7 @@ contribution.
 \hypertarget{problem-space}{%
 \subsection{Problem Space}\label{problem-space}}
 
-The problem space is defined as DAO Governance, in particular:
+The problem space is DAO Governance, in particular:
 
 \begin{itemize}
 \tightlist
@@ -383,28 +394,28 @@ The problem space is defined as DAO Governance, in particular:
 \tightlist
 \item
   \textbf{Stakeholder.} Any individual, collective, or entity that
-  experiences externalities due to the actions of the DAO,
-  e.g.~Token-holder, user, delegate, staker/miner, etc.
+  experiences externalities due to the actions of the DAO, e.g.,
+  Token-holder, user, delegate, staker/miner.
 \item
   \textbf{Participant.} Any individual, collective, or entity that
   participates in governance
 \item
   \textbf{Preference.} A stakeholder's subjective, comparative
-  evaluations over a range of options, e.g.~a miner prefers to increase
-  the block reward, over reducing rewards or keeping rewards constant
+  evaluations over a range of options, e.g., a miner prefers to increase
+  the block reward over reducing rewards or keeping rewards constant
 \item
   \textbf{Objectives.} The goal or set of goals that constitute the
-  DAO's organizing purpose, e.g.~``Buy the constitution'', ``Fund Public
-  Goods''
+  DAO's organizing purpose, e.g., ``Buy the constitution,'' ``Fund
+  Public Goods''
 \item
   \textbf{Acts.} The set of actions or decisions the DAO's governance
-  mechanism is able to produce and its stakeholders consider, e.g.~Add a
-  new asset as collateral in our lending protocol, remove a particular
+  mechanism can produce and its stakeholders consider, e.g., Add a new
+  asset as collateral in our lending protocol, remove a particular
   voter's voting power, increase token supply, offboard a contributor,
   suspend the protocol
 \item
   \textbf{Outcomes.} The set of outcomes the DAO's governance mechanism
-  is able to achieve through its actions, e.g.~Token Price increases or
+  can achieve through its actions, e.g., Token Price increases or
   remains stable, protocol users increase
 \end{itemize}
 
@@ -418,19 +429,19 @@ following dimensions:
 \tightlist
 \item
   \textbf{Stakeholder Representation.} The distribution of voting power
-  relative to DAO stakeholders, i.e.~users, token holders, stakers,
-  liquidity providers, etc.
+  relative to DAO stakeholders, i.e., users, token holders, stakers, and
+  liquidity providers.
 \item
   \textbf{Preference Representation.} The degree to which governance
-  participants are able to express their preferences with respect to the
-  DAO's objectives, e.g.~I do not believe the voting mechanism is
+  participants can express their preferences concerning the DAO's
+  objectives, e.g., a voter does not believe the voting mechanism is
   legitimate
 \item
   \textbf{Alignment.} The consistency of a decision when compared to a
   desired outcome
 \item
   \textbf{Coherence.} The consistency of a series of decisions when
-  compared to one another, with respect to a desired outcome
+  compared to one another concerning a desired outcome
 \item
   \textbf{Legitimacy.} Power granted by governance participants to the
   governance mechanism through their ongoing implicit agreement to be
@@ -446,9 +457,9 @@ following dimensions:
 \hypertarget{opportunism}{%
 \paragraph{Opportunism}\label{opportunism}}
 
-Where a single stakeholder or group of stakeholders is rewarded for
-acting in their own self interest while punishing all other stakeholders
-and producing outcomes that do not align with the DAO's objectives.
+Where a single stakeholder or group of stakeholders receives rewards for
+acting in self-interest while punishing all other stakeholders and
+producing outcomes that do not align with the DAO's objectives.
 
 \textbf{Example:} Proposing or voting for salary increases or against
 salary cuts during a budget-cutting exercise.
@@ -460,8 +471,8 @@ Illegitimate diversion of funds
 \hypertarget{capture}{%
 \paragraph{Capture}\label{capture}}
 
-Where a minority group of stakeholders possess the power to dictate the
-DAO's actions to serve their own preferences while punishing all other
+Where a minority group of stakeholders possesses the power to dictate
+the DAO's actions to serve their self-interest while punishing all other
 stakeholders and producing outcomes that do not align with the DAO's
 objectives.
 
@@ -474,10 +485,10 @@ Illegitimate diversion of funds
 \hypertarget{collusion}{%
 \paragraph{Collusion}\label{collusion}}
 
-Where two or more stakeholders or stakeholder groups that operate within
-or outside the boundaries of the DAO cooperate for their mutual benefit,
-to the detriment of all other stakeholders and the DAO's ability to
-achieve its objectives.
+Where two or more stakeholders or stakeholder groups operating within or
+outside the boundaries of the DAO cooperate for their mutual benefit, to
+the detriment of all other stakeholders and the DAO's ability to achieve
+its objectives.
 
 \textbf{Example:}
 \href{https://hackingdistributed.com/2018/07/02/on-chain-vote-buying/}{Vote
@@ -494,24 +505,24 @@ Illegitimate diversion of funds
 \paragraph{Capital Structure
 Exploitation}\label{capital-structure-exploitation}}
 
-Where an individual or group is able to exploit vulnerabilities in the
-DAO's governance mechanism to extract capital.
+Where an individual or group can exploit vulnerabilities in the DAO's
+governance mechanism to extract capital.
 
 \textbf{Example:} Treasury Drain Attacks, Price Manipulation Attacks,
-Arbitrageurs, etc.
+and Arbitrageurs.
 
 \textbf{Symptom:} - Illegitimate diversion of funds
 \hypertarget{governance-innovations}{%
 \section{Governance Innovations}\label{governance-innovations}}
 
-DAO Governance, unlike corporate and public governance, is both public
-and open source. The principles of the open source community, that
-anyone can copy and reuse for free, provides many opportunities for
-governance innovation----some of which we've shared below.
+Unlike corporate and public governance, DAO Governance is both public
+and open source. The principles of the open-source community, which
+anyone can copy and reuse for free, provide many opportunities for
+governance innovation----some of which we have shared below.
 
 \emph{Metagovernance,} \emph{Hybrid Governance,} and \emph{Market
 Governance} are three categories of governance innovation that may offer
-effective solutions with respect to our problem space.
+practical solutions concerning our problem space.
 
 \hypertarget{metagovernance}{%
 \subsection{Metagovernance}\label{metagovernance}}
@@ -522,16 +533,16 @@ protocol or a DAO, exerts influence on the governance of another DAO.
 
 Metagovernance is a transparent, often automated, vote-buying mechanism
 that incentivizes a target DAO's token-holders to take an action that
-benefits the mechanism's stakeholders, e.g.~influence over governance
-decisions, direction of token emissions, etc.
+benefits the mechanism's stakeholders, e.g., influence over governance
+decisions and the direction of token emissions.
 
 Metagovernance creates a secondary set of incentives, or
-meta-incentives, that augment the behaviour of the target DAO's
+meta-incentives, that augment the behavior of the target DAO's
 stakeholders.
 
 In one-off instances of metagovernance, such as in the case of Fei and
-Index Coop, the Fei team were able to gain influence in AAVE's
-governance using Index Coop's AAVE holdings.
+Index Coop, the Fei team gained influence in AAVE's governance using
+Index Coop's AAVE holdings.
 
 There are also extended forms of metagovernance with DAOs whose entire
 purpose is to control the governance of other DAOs, such as Convex
@@ -541,8 +552,7 @@ Finance.
 \subsubsection{Curve emissions with Convex
 Finance}\label{curve-emissions-with-convex-finance}}
 
-Convex was designed to maximise control over CRV emissions on the Curve
-protocol.
+Convex maximizes control over CRV emissions on the Curve protocol.
 
 Convex works by reimplementing Curve's vote-escrow token mechanic to pay
 CRV holders with CVX emissions in exchange for locking their CRV tokens
@@ -565,17 +575,16 @@ Hidden Hand from Redacted Cartel facilitates vote-buying campaigns for
 participating DAOs.
 
 Vote buyers, or bribers, can deposit bribes for governance proposals at
-participating DAOs and users can delegate governance tokens to the
-Hidden Hand protocol. The protocol then distributes votes to maximise
+participating DAOs, and users can delegate governance tokens to the
+Hidden Hand protocol. The protocol then distributes votes to maximize
 returns for its users in exchange for a 4\% commission of bribes
 received.
 
-As an example, as of September 7, 2022, \$851,364~worth of bribes were
-deposited for~61~proposals on Aura Finance and \$2,346,024 was deposited
-for~27~proposals on Balancer.
+For example, as of September 7, 2022, \$851,364 worth of bribes were
+deposited on Aura Finance and \$2,346,024 on Balancer.
 
-Hidden Hand also allows partners to implement their own bribe
-marketplaces so users can sell votes to bribers directly.
+Hidden Hand also allows its partners to operate bribe marketplaces so
+their token holders can sell votes to bribers directly.
 
 \hypertarget{fei-asset-listing-on-aave-with-index-coop}{%
 \subsubsection{FEI Asset Listing on AAVE with Index
@@ -594,44 +603,44 @@ In September 2021, Fei protocol, a stablecoin issuer, created a proposal
 to list the FEI token on AAVE, using the AAVE token holdings in Index
 Coop's DPI.
 
-AAVE's governance, specifically, requires 80,000 AAVE tokens before a
-holder can make a governance proposal. At that time, AAVE was trading at
-\$327.04, setting the cost of proposal creation on AAVE at over \$26m.
+AAVE's governance requires 80,000 AAVE tokens before a holder can make a
+governance proposal. At that time, AAVE was trading at \$327.04, setting
+the cost of proposal creation on AAVE at over \$26m.
 
-As a result of metagovernance, the Fei team were able to use \$4m of
-INDEX tokens to control over 118,000 AAVE, worth \textasciitilde\$36m,
-allowing the team to successfully list their token on AAVE.
+As a result of metagovernance, the Fei team used \$4m of INDEX tokens to
+control over 118,000 AAVE, worth \textasciitilde\$36m, allowing the team
+to list their token on AAVE successfully.
 
 \hypertarget{hybrid-governance}{%
 \subsection{Hybrid Governance}\label{hybrid-governance}}
 
-Hybrid governance is here defined as the combination of two or more
-governance models within a single DAO governance mechanism.
+Hybrid governance combines two or more governance models within a single
+DAO governance mechanism.
 
-This approach is typically pursued where DAO governance designers
-believe that outcomes can be better-aligned to the DAO's objectives by
+DAOs typically pursue this approach where DAO governance designers
+believe they can better align outcomes to the DAO's objectives by
 limiting the influence of stakeholders whose preferences are
 over-represented in a one-token, one-vote model.
 
-Hybrid governance can also be implemented to give greater weight to the
+Implementing hybrid governance can also give greater weight to the
 preferences of a group of stakeholders who are underrepresented or have
 no means to express their preferences except to ``vote with their
-feet'', which is a loss for all stakeholders.
+feet,'' which is a loss for all stakeholders.
 
 Hybrid governance modulates the influence of one set of stakeholders by
 distributing voting rights to another set of stakeholders, especially
-groups who may be marginalised by the preferences of dominant voters.
+groups that may be marginalized by the preferences of dominant voters.
 
-Voting power is redistributed until each group is able to provide
-sufficient checks and balance on the power of other groups.
+Voting power is redistributed until each group can provide sufficient
+checks and balances on the power of other groups.
 
 \hypertarget{lidos-steth-dual-governance}{%
 \subsubsection{Lido's stETH Dual
 Governance}\label{lidos-steth-dual-governance}}
 
 LidoDAO's is governed by LDO holders. Unfortunately, users that stake
-ETH in the Lido contract receive stETH, which confers the holder no
-voting rights.
+ETH in the Lido contract receive stETH, which confers no voting rights
+to the holder.
 
 This structure allows Lido holders to make decisions that benefit LDO
 holders at the expense of stETH holders.
@@ -640,13 +649,13 @@ The goal of Lido's Dual Governance proposal ``is to prevent the Lido DAO
 governance from changing the covenant between the protocol and stakers
 without consent from the latter.''
 
-The proposal grants stETH holders a vetocracy over proposals that are
-deemed to break the agreement under which users stake their ETH on Lido.
-stETH holders can signal their disagreement with a proposal by staking
-stETH in a vote escrow contract and once a minimum threshold is reached
-the proposal will be temporarily blocked to allow the community to
-negotiate. stETH holders can vote to block, amend, or pass the proposal
-after negotiations.
+The proposal grants stETH holders a vetocracy over proposals deemed to
+break the agreement under which users stake their ETH on Lido. stETH
+holders can signal their disagreement with a proposal by staking stETH
+in a vote escrow contract. Once staked stETH reaches a threshold, the
+proposal is temporarily blocked to allow the community to negotiate.
+stETH holders can vote to block, amend, or pass the proposal after
+negotiations.
 
 This power gives stETH enough power to limit opportunism by LDO token
 holders without burdening stakers with ongoing governance overhead.
@@ -655,19 +664,18 @@ holders without burdening stakers with ongoing governance overhead.
 \subsubsection{Optimism's Hybrid
 Governance}\label{optimisms-hybrid-governance}}
 
-Optimism, through the Optimism Collective have implemented a bicameral
-legislative process, comprising a `Token House' within which voting
-powers are granted through token ownership, and a `Citizens' House',
-within which voting powers are granted through non-transferrable NFTs or
-``soulbound tokens''.
+Optimism, through the Optimism Collective, has implemented a bicameral
+legislative process comprising a `Token House' which grants voting
+powers through token ownership, and a `Citizens' House,' which grants
+voting powers through non-transferrable NFTs or ``soulbound tokens.''
 
-The Citizen's House's remit appears to be reserved for retroactive
-public goods funding whereas the Token House has a more traditional DAO
-governance remit, e.g.~governance fund~grants, protocol upgrades,
-director removal, etc. The team explains that this approach is ``a
-large-scale experiment
-in~\href{https://vitalik.ca/general/2021/08/16/voting3.html}{non-plutocratic
-governance}'' but, so far, there are limited details.
+The Citizen's House reserves its remit for retroactive public goods
+funding. In contrast, the Token House's remit is closer to traditional
+DAO governance, e.g., governance fund grants, protocol upgrades,
+director removal, and so on. The team explains that this approach is ``a
+large-scale experiment in
+\href{https://vitalik.ca/general/2021/08/16/voting3.html}{non-plutocratic
+governance},'' but so far, there are few details.
 
 \hypertarget{market-governance}{%
 \subsection{Market Governance}\label{market-governance}}
@@ -675,16 +683,16 @@ governance}'' but, so far, there are limited details.
 Market Governance is co-opted from
 \href{https://en.wikipedia.org/wiki/Market_governance_mechanism}{Market
 Governance Mechanisms} to describe a mechanism that leverages the
-competitive forces of the open market to influence the behaviour of
+competitive forces of the open market to influence the behavior of
 stakeholders.
 
 As DAOs have scaled in scope, market cap, and contributors, token-based
 governance has created opportunities for corruption and in-fighting,
 especially where the DAO's operations are complex.
 
-As the range and diversity of stakeholders increases, and the potential
+As the range and diversity of stakeholders increases and the potential
 set of actions and decisions expand, governance must increase its
-throughput to accommodate, without creating a self-serving bureaucracy.
+throughput to accommodate without creating a self-serving bureaucracy.
 
 \hypertarget{makerdaos-metadaos}{%
 \subsubsection{MakerDAO's MetaDAOs}\label{makerdaos-metadaos}}
@@ -692,17 +700,17 @@ throughput to accommodate, without creating a self-serving bureaucracy.
 The solution proposed by Rune in Endgame constitutes a decomposition of
 MakerDAO into a single core DAO housing the main functions of the Maker
 protocol and a collection of smaller ``MetaDAO'' governance units with
-their own governance and governance token. ``MetaDAOs'' have the freedom
-to pursue any viable market opportunity, while leveraging the resources
-of the core DAO.
+their own governance and governance token. ``MetaDAOs'' can pursue any
+viable market opportunity while leveraging the resources of the core
+DAO.
 
-This innovation affords MakerDAO the ability to maintain a small number
-of governance-controlled parameters for the core protocol, while the
-market provides the incentives to steer MetaDAO governance to the
-pursuit of new market opportunities.
+This innovation allows MakerDAO to maintain several
+governance-controlled parameters for the core protocol. At the same
+time, the market provides the incentives to steer MetaDAO governance to
+pursue new market opportunities.
 
-This governance upgrade is in the process of being deployed at MakerDAO
-so its effects are yet to be measured.
+MakerDAO is in the process of deploying this governance upgrade, so its
+effects are yet to be measured.
 \hypertarget{proposal}{%
 \section{Proposal}\label{proposal}}
 
@@ -711,26 +719,25 @@ DAO Governance.
 
 \emph{Metagovernance} provides a system of secondary incentives to
 reward governance participants for taking a set of desired actions,
-which is useful for limiting opportunistic behaviour.
+which helps limit opportunistic behavior.
 
 \emph{Hybrid Governance} redistributes voting power among stakeholders
 using a secondary governance mechanism. The second mechanism provides a
-system of checks and balances between the two groups, guaranteeing a
-system can never be captured by a single group of voters operating under
-a single mechanism.
+system of checks and balances between the two groups, guaranteeing that
+a single group of voters can only capture a governance mechanism
+partially.
 
 \emph{Market Governance} decomposes governance into self-contained
-organisations, allowing market forces to govern each organization's
-decisions. As a result, organizations that become bureaucracies, or
-engage in corrupt practices are outcompeted by those that are
-consistently productive.
+organizations, allowing market forces to govern each organization's
+decisions. As a result, consistently productive organizations outcompete
+organizations that become bureaucracies or engage in corruption.
 
 These mechanisms improve stakeholder cooperation and alignment using
-three types of incentives. \emph{Metagovernance} incentives are provided
-by a mechanism or protocol. \emph{Hybrid Governance} relies on
-incentives which are provided by other stakeholders or peers.
-\emph{Market Governance} incentives are provided by the market through
-competition.
+three types of incentives. \emph{Metagovernance} incentives are
+incentives provided by a mechanism or protocol. \emph{Hybrid Governance}
+relies on incentives provided by other stakeholders or peers.
+\emph{Market Governance} incentives are incentives provided by the
+market through competition.
 
 Should governance attack, corruption, or capture be detectable by a
 governance mechanism, other stakeholders, or competing mechanisms,
@@ -739,7 +746,7 @@ rendering them unprofitable.
 
 Through our investigations in the field of cryptoeconomics, we aim to
 design a mechanism or collection of mechanisms capable of providing
-sufficient guarantees about cooperative behaviour in DAOs.
+sufficient guarantees about cooperative behavior in DAOs.
 
 Next, we present an initial exploration of the solution space.
 \hypertarget{molten}{%
@@ -749,15 +756,15 @@ Next, we present an initial exploration of the solution space.
 research and development.}
 
 Molten incentivizes voters to pool their votes to deter opportunistic
-behaviour by large token holders.
+behavior by large token holders.
 
 \hypertarget{actors}{%
 \subsection{Actors}\label{actors}}
 
-Molten is designed to coordinate the actions of three actors:
+Molten coordinates the actions of three actors:
 
 \textbf{Representative.} Stakeholder that wants to accrue voting power
-but lacks resources. Equivalent to a delegate in a DAO with vote
+but needs more resources. Equivalent to a delegate in a DAO with vote
 delegation.
 
 \textbf{Voter.} Stakeholder that wants protection against large voters
@@ -769,23 +776,23 @@ its objective.
 \hypertarget{components}{%
 \subsection{Components}\label{components}}
 
-Molten is comprised of:
+Molten's components include:
 
-\textbf{Campaigns.} A period of time within which Voters pool their
-tokens in order to delegate voting power to a Representative. Can be
-launched by Representative once Campaign threshold is achieved,
-e.g.~100,000 governance tokens deposited.
+\textbf{Campaigns.} A period within which Voters pool their tokens in
+order to delegate voting power to a Representative. Can be launched by
+the Representative once deposits exceed the Campaign threshold, e.g.,
+100,000 governance tokens deposited.
 
 \textbf{Campaign Manager.} Contract that manages all Campaigns,
 including types, parameters, and rewards.
 
 \textbf{Molten Pot.} Contract created by Representatives to lock tokens
-during a Campaign. Voters deposit and claim tokens from Pots. Deposits
-are frozen once a Campaign is launched.
+during a Campaign. Voters deposit and claim tokens from Pots. Launching
+the Campaign freezes deposits.
 
 \textbf{Molten Pot Factory.} Contract used to create Pots.
 
-\textbf{Reward.} Fixed token reward, e.g.~30,000 DAI, claimable in
+\textbf{Reward.} Fixed token reward, e.g., 30,000 DAI, claimable in
 proportion to Voters' Pot claim at the end of a Campaign.
 
 \textbf{mTokens.} Tokens issued to Voters during a Campaign. Each token
@@ -794,6 +801,12 @@ rewards locked in the Pot contract.
 
 \hypertarget{operation}{%
 \subsection{Operation}\label{operation}}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{./img/molten_interactions.png}
+\caption{Components Interacting}
+\end{figure}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -811,20 +824,19 @@ rewards locked in the Pot contract.
   Campaign Type and sets Campaign threshold
 \item
   Once a Molten Pot attached to a Representative exceeds the Campaign
-  threshold, the Representative can launch the Campaign. This ends all
-  other Campaigns of the same type, allowing Voters to claim tokens from
-  the Molten Pots
+  threshold, the Representative can launch the Campaign. Campaign
+  launches end all other Campaigns of the same type, allowing Voters to
+  claim tokens from the Molten Pots
 \item
-  Once the Campaign is launched, Molten Pots delegate pooled governance
-  token voting power to Representatives, e.g.~AAVE, and issue mTokens to
-  Voters, e.g.~mAAVE
+  At the Campaign launch, Molten Pots will delegate pooled governance
+  token voting power to Representatives, e.g., AAVE, and issue mTokens
+  to Voters, e.g., mAAVE
 \item
-  Once the Campaign duration is reached, the underlying governance
-  tokens and Rewards are claimable from the Molten Pot \& Campaign
-  Manager
+  After a Campaign reaches duration, the underlying governance tokens
+  and Rewards are claimable from the Molten Pot \& Campaign Manager
 \item
-  During the campaign, should mToken holders decide that a
-  Representative is no longer protecting their interests they can vote
+  During the Campaign, should mToken holders decide that a
+  Representative is no longer protecting their interests, they can vote
   to terminate the Campaign, removing the Representative's voting power
   and forfeiting the Reward for all parties
 \end{enumerate}
@@ -832,38 +844,31 @@ rewards locked in the Pot contract.
 \hypertarget{outcome}{%
 \subsection{Outcome}\label{outcome}}
 
-Molten combines peer incentives, used to incentivize Representatives to
-identify governance capture and corruption and increase stakeholder
-cooperation, and market incentives, to surface and distribute voting
-power to the most competent and motivated Representatives capable of
-keeping powerful voters in check.
+Molten combines peer incentives and market incentives. It uses peer
+incentives to incentivize Representatives to identify governance capture
+and corruption and increase stakeholder cooperation. It uses market
+incentives to surface and distribute voting power to the most competent
+and motivated Representatives capable of keeping the most influential
+voters in check.
 
-We expect peer incentives will provide sufficient rewards to
-Representatives that identify corruption or
-capture\href{https://doi.org/10.1371/journal.pcbi.1004232}{2}, in the
-form of delegated voting power, to limit potential gains from either
+Peer incentives will provide sufficient rewards to Representatives that
+identify corruption or
+capture\href{https://doi.org/10.1371/journal.pcbi.1004232}{2} in the
+form of delegated voting power to limit potential gains from either
 strategy, creating an effective deterrent.
 
-We expect market incentives to encourage competent Representatives to
-emerge, able to monitor and counter opportunism by large voters.
+Market incentives should encourage competent Representatives to emerge,
+able to monitor and counter opportunism by large voters.
 
-Given the presence of both peer incentives and market incentives, we
-believe that coordination costs are the most significant barrier to
-voters pursuing a collective voting strategy. We hope to prove the
-effectiveness of an incentive on voter coordination.
+Given the presence of both peer and market incentives, coordination
+costs are the most significant barrier to voters pursuing a collective
+voting strategy. We aim to prove the effectiveness of incentives on
+voter coordination.
 
 \hypertarget{implementation}{%
 \subsection{Implementation}\label{implementation}}
 
-A prototype implementation can be seen
+See prototype implementation
 \href{https://github.com/butterymoney/molten/}{here}.
-\hypertarget{molten-v1}{%
-\section{Molten v1}\label{molten-v1}}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{./img/molten-fundraiser-v1-seq-diag.png}
-\caption{Sequence diagram}
-\end{figure}
 
 \end{document}
