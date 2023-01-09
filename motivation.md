@@ -18,7 +18,7 @@ DAOs, through their use of blockchains, claim to provide the benefits of large-s
 
 Generally, DAO proponents expect DAOs to replace traditional institutions in providing public, common, or club goods. When these institutions fail, centralization is usually a root cause, e.g., bureaucracy, corruption, and principal-agent problems.
 
-In practice, however, DAOs do not offer solutions to these problems and often move them elsewhere in the value chain[1]. Current DAO implementations, therefore, remain vulnerable to the same issues faced by our incumbent institutions.
+In practice, however, DAOs do not offer solutions to these problems and often move them [elsewhere in the value chain][1]. Current DAO implementations, therefore, remain vulnerable to the same issues faced by our incumbent institutions.
 
 ## DAO Governance
 
